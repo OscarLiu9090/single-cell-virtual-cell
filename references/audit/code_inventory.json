@@ -1,0 +1,1325 @@
+[
+  {
+    "path": "04.ann/geo04.ann.pl",
+    "encoding": "binary_or_mixed",
+    "lines": 62426,
+    "functions": [],
+    "inputs": [
+      "read(_FH, $buf, $chunk_size + length($PAR_MAGIC));",
+      "readFromFileHandle($fh, $par) == Archive::Zip::AZ_OK() )",
+      "readFromFileHandle($fh, $progname) == Archive::Zip::AZ_OK() or die \"$!: $@\";"
+    ],
+    "outputs": [
+      "writeToFileHandle($fh) if $zip;"
+    ],
+    "flags": [
+      {
+        "flag": "packed_Perl",
+        "lines": [
+          6
+        ]
+      }
+    ]
+  },
+  {
+    "path": "05.normalize/geo05.normalize.R",
+    "encoding": "gb18030",
+    "lines": 55,
+    "functions": [],
+    "inputs": [],
+    "outputs": [],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          13
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          17,
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "path": "05.normalize/GSE138260/geo05.normalize.R",
+    "encoding": "gb18030",
+    "lines": 55,
+    "functions": [],
+    "inputs": [],
+    "outputs": [],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          13
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          17,
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "path": "05.normalize/GSE29378/geo05.normalize.R",
+    "encoding": "gb18030",
+    "lines": 55,
+    "functions": [],
+    "inputs": [],
+    "outputs": [],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          13
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          17,
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "path": "05.normalize/GSE36980/geo05.normalize.R",
+    "encoding": "gb18030",
+    "lines": 55,
+    "functions": [],
+    "inputs": [],
+    "outputs": [],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          13
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          17,
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "path": "05.normalize/GSE37263/geo05.normalize.R",
+    "encoding": "gb18030",
+    "lines": 55,
+    "functions": [],
+    "inputs": [],
+    "outputs": [],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          13
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          17,
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "path": "05.normalize/GSE5281/geo05.normalize.R",
+    "encoding": "gb18030",
+    "lines": 55,
+    "functions": [],
+    "inputs": [],
+    "outputs": [],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          13
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          17,
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "path": "06.sva/geo06.sva.R",
+    "encoding": "gb18030",
+    "lines": 77,
+    "functions": [],
+    "inputs": [],
+    "outputs": [],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          13
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          44,
+          48
+        ]
+      }
+    ]
+  },
+  {
+    "path": "07.boxplot/geo07.boxplot.R",
+    "encoding": "gb18030",
+    "lines": 47,
+    "functions": [
+      "bioBoxplot"
+    ],
+    "inputs": [],
+    "outputs": [
+      "pdf(file=outFile, width=10, height=5)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          9
+        ]
+      }
+    ]
+  },
+  {
+    "path": "08.PCA/geo08.PCA.R",
+    "encoding": "gb18030",
+    "lines": 45,
+    "functions": [
+      "bioPCA"
+    ],
+    "inputs": [],
+    "outputs": [
+      "pdf(file=outFile, width=5.5, height=4.25)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "path": "09.diff/geo09.diff.R",
+    "encoding": "gb18030",
+    "lines": 112,
+    "functions": [],
+    "inputs": [],
+    "outputs": [
+      "pdf(file=\"heatmap.pdf\", width=10, height=7)\r",
+      "pdf(file=\"vol.pdf\", width=5.5, height=4.5)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          19
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          23,
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "path": "12.Seurat/geo12.Seurat.R",
+    "encoding": "gb18030",
+    "lines": 235,
+    "functions": [],
+    "inputs": [
+      "Read10X(data.dir = dirs_sample)\r",
+      "load(\"ref_Human_all.RData\"))\r",
+      "load(\"ref_Hematopoietic.RData\"))\r",
+      "load(\"DatabaseImmuneCellExpressionData.Rdata\"))\r",
+      "load(\"BlueprintEncode_bpe.se_human.RData\"))\r",
+      "load(\"HumanPrimaryCellAtlas_hpca.se_human.RData\"))\r",
+      "load(\"MonacoImmuneData.Rdata\"))\r",
+      "load(\"NovershternHematopoieticData.Rdata\"))\r"
+    ],
+    "outputs": [
+      "pdf(file=\"01.featureViolin.pdf\", width=10, height=6.5)\r",
+      "pdf(file=\"01.featureCor.pdf\", width=13, height=7)\r",
+      "pdf(file=\"01.featureVar.pdf\", width=10, height=6)\r",
+      "pdf(file=\"02.pcaGene.pdf\", width=10, height=8)\r",
+      "pdf(file=\"02.PCA.pdf\", width=7.5, height=5)\r",
+      "pdf(file=\"02.pcaHeatmap.pdf\", width=10, height=8)\r",
+      "pdf(file=\"02.pcaJackStraw.pdf\",width=8,height=6)\r",
+      "pdf(file=\"03.cluster.pdf\", width=7.5, height=6)\r",
+      "pdf(file=\"03.clusterHeatmap.pdf\",width=15, height=15)\r",
+      "pdf(file=\"04.cellAnn.pdf\", width=8, height=6)\r",
+      "pdf(file=\"04.group.cellAnn.pdf\", width=12, height=6)\r",
+      "save(pbmc, cellAnn, clusterAnn, sig.markers, sig.cellMarkers, allGroupMarkers, file=\"Seurat.Rdata\")\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          43
+        ]
+      },
+      {
+        "flag": "condition_as_sample",
+        "lines": [
+          190
+        ]
+      }
+    ]
+  },
+  {
+    "path": "13.cellChat/geo13.cellChat.R",
+    "encoding": "gb18030",
+    "lines": 115,
+    "functions": [],
+    "inputs": [
+      "load(\"Seurat.Rdata\")\r"
+    ],
+    "outputs": [
+      "pdf(file=\"COMM01.DatabaseCategory.pdf\", width=7, height=5)\r",
+      "pdf(file=\"COMM03.cellNetworkCount.pdf\", width=7, height=6)\r",
+      "pdf(file=\"COMM04.cellNetworkWeight.pdf\", width=7, height=6)\r",
+      "pdf(file=\"COMM05.singleCell.pdf\", width=9, height=7.5)\r",
+      "pdf(file=paste0(\"COMM05.\", cel, \".pdf\"), width=6.5, height=5.5)\r",
+      "pdf(file=\"COMM06.bubble.pdf\", width=7, height=5)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          29
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          34
+        ]
+      },
+      {
+        "flag": "mixed_disease_cells",
+        "lines": [
+          33
+        ]
+      }
+    ]
+  },
+  {
+    "path": "14.scRNAtoolVis/geo14.scRNAtoolVis.R",
+    "encoding": "utf-8-sig",
+    "lines": 76,
+    "functions": [],
+    "inputs": [
+      "load(\"Seurat.Rdata\")\r"
+    ],
+    "outputs": [
+      "pdf(file=\"01.cellType.pdf\", width=8, height=6)\r",
+      "pdf(file=\"02.barplot.pdf\", width=6, height=6)\r",
+      "pdf(file=\"03.markerVolcano.pdf\", width=10, height=6)\r",
+      "pdf(file=\"04.jjVolcano1.pdf\", width=12, height=6)\r",
+      "pdf(file=\"04.jjVolcano2.pdf\", width=9, height=7)\r",
+      "pdf(file=\"04.jjVolcano3.pdf\", width=8, height=7)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          21
+        ]
+      }
+    ]
+  },
+  {
+    "path": "16.MR/OE16.MR.R",
+    "encoding": "utf-8-sig",
+    "lines": 111,
+    "functions": [],
+    "inputs": [
+      "read_exposure_data(filename=exposureFile,\r",
+      "readVcf(outcomeFile)\r",
+      "read_outcome_data(snps=exposure_dat$SNP,\r"
+    ],
+    "outputs": [
+      "pdf(file=\"pic.scatter_plot.pdf\", width=7.5, height=7)\r",
+      "pdf(file=\"pic.forest.pdf\", width=7, height=5.5)\r",
+      "pdf(file=\"pic.funnel_plot.pdf\", width=7, height=6.5)\r",
+      "pdf(file=\"pic.leaveoneout.pdf\", width=7, height=5.5)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          20
+        ]
+      }
+    ]
+  },
+  {
+    "path": "17.MRfilter/OE17.IVWfilter.R",
+    "encoding": "gb18030",
+    "lines": 36,
+    "functions": [],
+    "inputs": [],
+    "outputs": [],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          3
+        ]
+      }
+    ]
+  },
+  {
+    "path": "18.venn/OE18.venn.R",
+    "encoding": "gb18030",
+    "lines": 81,
+    "functions": [],
+    "inputs": [],
+    "outputs": [
+      "pdf(file=\"up.pdf\", width=5, height=5)\r",
+      "pdf(file=\"down.pdf\", width=5, height=5)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          8
+        ]
+      }
+    ]
+  },
+  {
+    "path": "19.forest/OE19.forest.R",
+    "encoding": "utf-8-sig",
+    "lines": 92,
+    "functions": [],
+    "inputs": [],
+    "outputs": [
+      "pdf(file=\"forest.pdf\", width=12, heigh=6)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "path": "20.Nomo/OE20.Nomo.R",
+    "encoding": "gb18030",
+    "lines": 74,
+    "functions": [],
+    "inputs": [],
+    "outputs": [
+      "pdf(file=\"Nomo.pdf\", width=8, height=6)\r",
+      "pdf(file=\"Calibration.pdf\", width=5.5, height=5.5)\r",
+      "pdf(file=\"DCA.pdf\", width=6, height=6)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "path": "21.GSEA/OE21.GSEA.R",
+    "encoding": "gb18030",
+    "lines": 92,
+    "functions": [],
+    "inputs": [],
+    "outputs": [
+      "pdf(file=paste0(gene,\".highExp.pdf\"), width=6.5, height=5.5)\r",
+      "pdf(file=paste0(gene,\".lowExp.pdf\"), width=6.5, height=5.5)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          19
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          23,
+          27
+        ]
+      }
+    ]
+  },
+  {
+    "path": "22.GSVA/OE22.GSVA.R",
+    "encoding": "gb18030",
+    "lines": 102,
+    "functions": [
+      "normalize"
+    ],
+    "inputs": [],
+    "outputs": [
+      "pdf(file=paste0(gene,\".barplot.pdf\"), width=10, height=7)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          20
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          24,
+          28
+        ]
+      }
+    ]
+  },
+  {
+    "path": "23.CIBERSORT/OE23.CIBERSORT.R",
+    "encoding": "utf-8-sig",
+    "lines": 216,
+    "functions": [
+      "CoreAlg",
+      "res",
+      "doPerm",
+      "CIBERSORT"
+    ],
+    "inputs": [
+      "source(\"http://bioconductor.org/biocLite.R\")\r",
+      "source('CIBERSORT.R')\r"
+    ],
+    "outputs": [],
+    "flags": [
+      {
+        "flag": "date_condition",
+        "lines": [
+          133
+        ]
+      }
+    ]
+  },
+  {
+    "path": "23.CIBERSORT/OE23.run.R",
+    "encoding": "gb18030",
+    "lines": 29,
+    "functions": [],
+    "inputs": [
+      "source(\"OE23.CIBERSORT.R\")      #引用包\r"
+    ],
+    "outputs": [],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          9
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          17
+        ]
+      }
+    ]
+  },
+  {
+    "path": "24.barplot/OE24.barplot.R",
+    "encoding": "gb18030",
+    "lines": 75,
+    "functions": [],
+    "inputs": [],
+    "outputs": [
+      "pdf(file=\"barplot.pdf\", width=13, height=7)\r",
+      "pdf(file=\"immune.diff.pdf\", width=8, height=6)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          11
+        ]
+      }
+    ]
+  },
+  {
+    "path": "25.linkET/OE25.linkET.R",
+    "encoding": "gb18030",
+    "lines": 104,
+    "functions": [],
+    "inputs": [],
+    "outputs": [
+      "pdf(file=\"linkET.pdf\", width=9, height=7)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          23
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          27,
+          31
+        ]
+      }
+    ]
+  },
+  {
+    "path": "26.testDiff/OE26.testDiff.R",
+    "encoding": "gb18030",
+    "lines": 67,
+    "functions": [],
+    "inputs": [],
+    "outputs": [
+      "pdf(file=\"boxplot.pdf\", width=5, height=4.5)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          17
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          21,
+          25
+        ]
+      }
+    ]
+  },
+  {
+    "path": "27.geneView/OE27.view.R",
+    "encoding": "gb18030",
+    "lines": 60,
+    "functions": [],
+    "inputs": [
+      "load(\"Seurat.Rdata\")\r"
+    ],
+    "outputs": [
+      "pdf(file=\"Bubble.pdf\", width=7.5, height=5)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          37
+        ]
+      }
+    ]
+  },
+  {
+    "path": "28.scTenifoldKnk/OE28.scTenifoldKnk.R",
+    "encoding": "utf-8-sig",
+    "lines": 120,
+    "functions": [],
+    "inputs": [
+      "load(\"seurat.Rdata\")\r"
+    ],
+    "outputs": [
+      "pdf(file=\"barplot.pdf\", width=6, height=5)\r",
+      "pdf(file=\"vol.pdf\", width=6, height=5)\r",
+      "pdf(file=\"pie.pdf\", width=6, height=5)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          20
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          33
+        ]
+      },
+      {
+        "flag": "mixed_disease_cells",
+        "lines": [
+          26
+        ]
+      }
+    ]
+  },
+  {
+    "path": "29.Enrich/OE29.Enrich.R",
+    "encoding": "gb18030",
+    "lines": 213,
+    "functions": [
+      "panel.fun",
+      "panel.fun",
+      "panel.fun",
+      "panel.fun"
+    ],
+    "inputs": [],
+    "outputs": [
+      "pdf(file=\"barplot.pdf\", width = 7.5, height = 6)\r",
+      "pdf(file=\"circlize.pdf\", width=10, height=10)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "flag": "uncorrected_enrichment",
+        "lines": [
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "path": "30.scTenifoldOE/OE30.OE.R",
+    "encoding": "utf-8-sig",
+    "lines": 121,
+    "functions": [],
+    "inputs": [
+      "source(\"refer.scTenifoldOE.R\")\r",
+      "load(\"seurat.Rdata\")\r"
+    ],
+    "outputs": [
+      "pdf(file=\"barplot.pdf\", width=6, height=5)\r",
+      "pdf(file=\"vol.pdf\", width=6, height=5)\r",
+      "pdf(file=\"pie.pdf\", width=6, height=5)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          18
+        ]
+      },
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "flag": "mixed_disease_cells",
+        "lines": [
+          24
+        ]
+      }
+    ]
+  },
+  {
+    "path": "30.scTenifoldOE/refer.scTenifoldOE.R",
+    "encoding": "utf-8-sig",
+    "lines": 155,
+    "functions": [
+      "scTenifoldOE",
+      "scTenifoldOE2"
+    ],
+    "inputs": [],
+    "outputs": [],
+    "flags": [
+      {
+        "flag": "dense_conversion",
+        "lines": [
+          41,
+          79
+        ]
+      },
+      {
+        "flag": "internal_API",
+        "lines": [
+          78,
+          94
+        ]
+      }
+    ]
+  },
+  {
+    "path": "31.Enrich/OE31.Enrich.R",
+    "encoding": "gb18030",
+    "lines": 213,
+    "functions": [
+      "panel.fun",
+      "panel.fun",
+      "panel.fun",
+      "panel.fun"
+    ],
+    "inputs": [],
+    "outputs": [
+      "pdf(file=\"barplot.pdf\", width = 7.5, height = 6)\r",
+      "pdf(file=\"circlize.pdf\", width=10, height=10)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          31
+        ]
+      },
+      {
+        "flag": "uncorrected_enrichment",
+        "lines": [
+          29
+        ]
+      }
+    ]
+  },
+  {
+    "path": "33.vscore/AI33.vscore.py",
+    "encoding": "utf-8-sig",
+    "lines": 276,
+    "functions": [
+      {
+        "name": "compute_vscore_two_groups_exact",
+        "line": 61
+      },
+      {
+        "name": "compute_vscores_vectorized",
+        "line": 83
+      }
+    ],
+    "inputs": [
+      "read_csv(input_file, sep='\\t', index_col=0)",
+      "read_h5ad(output_file)"
+    ],
+    "outputs": [
+      "write(output_file)"
+    ],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/__init__.py",
+    "encoding": "utf-8-sig",
+    "lines": 31,
+    "functions": [],
+    "inputs": [],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/build/lib/drugreflector/__init__.py",
+    "encoding": "utf-8-sig",
+    "lines": 31,
+    "functions": [],
+    "inputs": [],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/build/lib/drugreflector/cli.py",
+    "encoding": "utf-8-sig",
+    "lines": 115,
+    "functions": [
+      {
+        "name": "main",
+        "line": 12
+      }
+    ],
+    "inputs": [],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/build/lib/drugreflector/example.py",
+    "encoding": "utf-8-sig",
+    "lines": 56,
+    "functions": [
+      {
+        "name": "main",
+        "line": 14
+      }
+    ],
+    "inputs": [],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/build/lib/drugreflector/README.md",
+    "encoding": "utf-8-sig",
+    "lines": 466,
+    "functions": [],
+    "inputs": [
+      "readouts(readouts)",
+      "readouts(readouts, readout_col=None, ...)`: Load phenotypic data"
+    ],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/build/lib/drugreflector/signature_refinement/__init__.py",
+    "encoding": "utf-8-sig",
+    "lines": 10,
+    "functions": [],
+    "inputs": [],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/build/lib/drugreflector/signature_refinement/signature_refinement.py",
+    "encoding": "utf-8-sig",
+    "lines": 525,
+    "functions": [
+      {
+        "name": "SignatureRefinement",
+        "line": 23
+      },
+      {
+        "name": "__init__",
+        "line": 37
+      },
+      {
+        "name": "load_counts_data",
+        "line": 64
+      },
+      {
+        "name": "load_normalized_data",
+        "line": 136
+      },
+      {
+        "name": "load_phenotypic_readouts",
+        "line": 186
+      },
+      {
+        "name": "load_paired_readouts",
+        "line": 244
+      },
+      {
+        "name": "_learned_signature",
+        "line": 299
+      },
+      {
+        "name": "compute_learned_signatures",
+        "line": 343
+      },
+      {
+        "name": "compute_refined_signatures",
+        "line": 429
+      }
+    ],
+    "inputs": [
+      "readouts(self, readouts: Union[pd.DataFrame, pd.Series], ",
+      "readouts(self, adata: AnnData, compound_id_obs_col: str, ",
+      "readouts(readouts, readout_col, compound_id_col)"
+    ],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/build/lib/drugreflector/utils.py",
+    "encoding": "utf-8-sig",
+    "lines": 458,
+    "functions": [
+      {
+        "name": "_norm_func",
+        "line": 15
+      },
+      {
+        "name": "clip_rescale_rows",
+        "line": 20
+      },
+      {
+        "name": "compute_vscores",
+        "line": 44
+      },
+      {
+        "name": "load_h5ad_file",
+        "line": 99
+      },
+      {
+        "name": "create_synthetic_gene_expression",
+        "line": 132
+      },
+      {
+        "name": "pseudobulk_adata",
+        "line": 180
+      },
+      {
+        "name": "compute_vscore_two_groups",
+        "line": 355
+      },
+      {
+        "name": "compute_vscores_adata",
+        "line": 389
+      }
+    ],
+    "inputs": [
+      "read_h5ad(filepath)"
+    ],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/cli.py",
+    "encoding": "utf-8-sig",
+    "lines": 115,
+    "functions": [
+      {
+        "name": "main",
+        "line": 12
+      }
+    ],
+    "inputs": [],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/drugreflector/__init__.py",
+    "encoding": "utf-8-sig",
+    "lines": 9,
+    "functions": [],
+    "inputs": [],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/drugreflector/drug_reflector.py",
+    "encoding": "utf-8-sig",
+    "lines": 348,
+    "functions": [
+      {
+        "name": "DrugReflector",
+        "line": 18
+      },
+      {
+        "name": "__init__",
+        "line": 35
+      },
+      {
+        "name": "_prepare_vscores",
+        "line": 57
+      },
+      {
+        "name": "transform",
+        "line": 98
+      },
+      {
+        "name": "predict",
+        "line": 160
+      },
+      {
+        "name": "get_top_compounds",
+        "line": 224
+      },
+      {
+        "name": "predict_top_compounds",
+        "line": 276
+      },
+      {
+        "name": "check_gene_coverage",
+        "line": 297
+      }
+    ],
+    "inputs": [],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/drugreflector/ensemble_model.py",
+    "encoding": "utf-8-sig",
+    "lines": 269,
+    "functions": [
+      {
+        "name": "EnsembleModel",
+        "line": 19
+      },
+      {
+        "name": "__init__",
+        "line": 32
+      },
+      {
+        "name": "_load_models",
+        "line": 41
+      },
+      {
+        "name": "loaded_models",
+        "line": 102
+      },
+      {
+        "name": "_check_and_get_X",
+        "line": 106
+      },
+      {
+        "name": "get_predictions",
+        "line": 119
+      },
+      {
+        "name": "format_vscores",
+        "line": 155
+      },
+      {
+        "name": "transform",
+        "line": 219
+      },
+      {
+        "name": "_add_ranks_layer",
+        "line": 261
+      }
+    ],
+    "inputs": [
+      "load(ckpt_path, map_location='cpu', weights_only=True)"
+    ],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/drugreflector/models.py",
+    "encoding": "utf-8-sig",
+    "lines": 133,
+    "functions": [
+      {
+        "name": "fetch_activation",
+        "line": 15
+      },
+      {
+        "name": "init_weights",
+        "line": 34
+      },
+      {
+        "name": "order_activation_block",
+        "line": 40
+      },
+      {
+        "name": "make_fc_encoder",
+        "line": 53
+      },
+      {
+        "name": "nnFC",
+        "line": 82
+      },
+      {
+        "name": "__init__",
+        "line": 107
+      },
+      {
+        "name": "forward",
+        "line": 132
+      }
+    ],
+    "inputs": [],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/drugreflector/predict.py",
+    "encoding": "utf-8-sig",
+    "lines": 164,
+    "functions": [
+      {
+        "name": "main",
+        "line": 21
+      }
+    ],
+    "inputs": [],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/drugreflector/utils.py",
+    "encoding": "utf-8-sig",
+    "lines": 43,
+    "functions": [
+      {
+        "name": "_norm_func",
+        "line": 15
+      },
+      {
+        "name": "clip_rescale_rows",
+        "line": 20
+      }
+    ],
+    "inputs": [],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/example.py",
+    "encoding": "utf-8-sig",
+    "lines": 56,
+    "functions": [
+      {
+        "name": "main",
+        "line": 14
+      }
+    ],
+    "inputs": [],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/pyproject.toml",
+    "encoding": "utf-8-sig",
+    "lines": 120,
+    "functions": [],
+    "inputs": [],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/README.md",
+    "encoding": "utf-8-sig",
+    "lines": 466,
+    "functions": [],
+    "inputs": [
+      "readouts(readouts)",
+      "readouts(readouts, readout_col=None, ...)`: Load phenotypic data"
+    ],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/signature_refinement/__init__.py",
+    "encoding": "utf-8-sig",
+    "lines": 10,
+    "functions": [],
+    "inputs": [],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/signature_refinement/signature_refinement.py",
+    "encoding": "utf-8-sig",
+    "lines": 525,
+    "functions": [
+      {
+        "name": "SignatureRefinement",
+        "line": 23
+      },
+      {
+        "name": "__init__",
+        "line": 37
+      },
+      {
+        "name": "load_counts_data",
+        "line": 64
+      },
+      {
+        "name": "load_normalized_data",
+        "line": 136
+      },
+      {
+        "name": "load_phenotypic_readouts",
+        "line": 186
+      },
+      {
+        "name": "load_paired_readouts",
+        "line": 244
+      },
+      {
+        "name": "_learned_signature",
+        "line": 299
+      },
+      {
+        "name": "compute_learned_signatures",
+        "line": 343
+      },
+      {
+        "name": "compute_refined_signatures",
+        "line": 429
+      }
+    ],
+    "inputs": [
+      "readouts(self, readouts: Union[pd.DataFrame, pd.Series], ",
+      "readouts(self, adata: AnnData, compound_id_obs_col: str, ",
+      "readouts(readouts, readout_col, compound_id_col)"
+    ],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "34.DrugReflector/utils.py",
+    "encoding": "utf-8-sig",
+    "lines": 458,
+    "functions": [
+      {
+        "name": "_norm_func",
+        "line": 15
+      },
+      {
+        "name": "clip_rescale_rows",
+        "line": 20
+      },
+      {
+        "name": "compute_vscores",
+        "line": 44
+      },
+      {
+        "name": "load_h5ad_file",
+        "line": 99
+      },
+      {
+        "name": "create_synthetic_gene_expression",
+        "line": 132
+      },
+      {
+        "name": "pseudobulk_adata",
+        "line": 180
+      },
+      {
+        "name": "compute_vscore_two_groups",
+        "line": 355
+      },
+      {
+        "name": "compute_vscores_adata",
+        "line": 389
+      }
+    ],
+    "inputs": [
+      "read_h5ad(filepath)"
+    ],
+    "outputs": [],
+    "flags": []
+  },
+  {
+    "path": "35.vol/AI35.vol.R",
+    "encoding": "utf-8-sig",
+    "lines": 74,
+    "functions": [],
+    "inputs": [],
+    "outputs": [
+      "pdf(file=\"vol.pdf\", width=6, height=5)\r",
+      "pdf(file=\"barplot.pdf\", width=5.5, height=5.5)\r"
+    ],
+    "flags": [
+      {
+        "flag": "hardcoded_workdir",
+        "lines": [
+          13
+        ]
+      }
+    ]
+  }
+]

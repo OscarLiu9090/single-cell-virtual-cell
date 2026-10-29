@@ -1,0 +1,414 @@
+[
+  {
+    "sha256": "71b8a6926c2a2afdb27d587aec7fe56593d30cb078f987ad92fcf2b2a0cf8dfb",
+    "paths": [
+      "03.download/GSE138260/GPL27556-55246.txt",
+      "04.ann/GSE138260/ann.txt"
+    ]
+  },
+  {
+    "sha256": "e187de7edd39754321c291defa297e8b9fe15d5abd267fc782e89d49e0f39f67",
+    "paths": [
+      "03.download/GSE138260/GSE138260_series_matrix.txt.gz",
+      "04.ann/GSE138260/GSE138260_series_matrix.txt.gz"
+    ]
+  },
+  {
+    "sha256": "7b5406a5d26a608d1d2eb75ea7a7b0f573b0c49075ddb5884f1122cefd077cc0",
+    "paths": [
+      "03.download/GSE29378/GPL6947-13512.txt",
+      "04.ann/GSE29378/ann.txt"
+    ]
+  },
+  {
+    "sha256": "fcb5e3e72c8b4ffd736fc51b178257631d703cda05c1d70a54d82857ad5eddf0",
+    "paths": [
+      "03.download/GSE29378/GSE29378_series_matrix.txt.gz",
+      "04.ann/GSE29378/GSE29378_series_matrix.txt.gz"
+    ]
+  },
+  {
+    "sha256": "5dc92ff9809256a4441c937025d5b1774f5eb4557888faa0c792670ee6cdddee",
+    "paths": [
+      "03.download/GSE36980/GPL6244-17930.txt",
+      "04.ann/GSE36980/ann.txt"
+    ]
+  },
+  {
+    "sha256": "f0a06b279f280773d086d5247fe7609fc4bd8dd71d5095f4de81bb8103e2609c",
+    "paths": [
+      "03.download/GSE36980/GSE36980_series_matrix.txt.gz",
+      "04.ann/GSE36980/GSE36980_series_matrix.txt.gz"
+    ]
+  },
+  {
+    "sha256": "5231d6f4ddea5fc84ef587cfc710d6a440d76abc96f4c4ae4ebe98ab0fada6a2",
+    "paths": [
+      "03.download/GSE37263/GPL5175-3188.txt",
+      "04.ann/GSE37263/ann.txt"
+    ]
+  },
+  {
+    "sha256": "ee96fdef54e3dfa9f953a35792d7e3b6546eb5dd54e0c8716b0b4efff94eaf0f",
+    "paths": [
+      "03.download/GSE37263/GSE37263_series_matrix.txt.gz",
+      "04.ann/GSE37263/GSE37263_series_matrix.txt.gz"
+    ]
+  },
+  {
+    "sha256": "ecbfa3a4ac145d06b2b42508a05d0c7123fbb4ab681d2b94d6e6330a9b69aa7f",
+    "paths": [
+      "03.download/GSE5281/GPL570-55999.txt",
+      "04.ann/GSE5281/ann.txt"
+    ]
+  },
+  {
+    "sha256": "4cf3d2e7948f712fe9a145fcc2e8f34767eb2715284011148b3204c732e68e36",
+    "paths": [
+      "03.download/GSE5281/GSE5281_series_matrix.txt.gz",
+      "04.ann/GSE5281/GSE5281_series_matrix.txt.gz"
+    ]
+  },
+  {
+    "sha256": "34f5519662d7cbc0215255f1a17c8244017ed521c7ee24dead345c9ccf1e161e",
+    "paths": [
+      "04.ann/GSE138260/geneMatrix.txt",
+      "05.normalize/GSE138260/geneMatrix.txt"
+    ]
+  },
+  {
+    "sha256": "a4c1b41f82635c3baf24f1414fe96da092a6ddd2657199acb47bd4640666b4f1",
+    "paths": [
+      "04.ann/GSE138260/s1.txt",
+      "05.normalize/GSE138260/s1.txt"
+    ]
+  },
+  {
+    "sha256": "3535af05f12c1a2df7642fc75fe964aac589814a79e2964f411770b37291c31a",
+    "paths": [
+      "04.ann/GSE138260/s2.txt",
+      "05.normalize/GSE138260/s2.txt"
+    ]
+  },
+  {
+    "sha256": "53cd818a94eab200cf295405c9b4655f06b275b7bb2a2ce00d2c609e856f45eb",
+    "paths": [
+      "04.ann/GSE29378/geneMatrix.txt",
+      "05.normalize/GSE29378/geneMatrix.txt"
+    ]
+  },
+  {
+    "sha256": "4be08976eaa1156738a4fd9f548ea92cf5b0f405987fc26961c2657e0da03096",
+    "paths": [
+      "04.ann/GSE29378/s1.txt",
+      "05.normalize/GSE29378/s1.txt"
+    ]
+  },
+  {
+    "sha256": "5db6b73d6b898695c81f6e78ba1858bf6d10c13de8d13415fecb906d9e1b5347",
+    "paths": [
+      "04.ann/GSE29378/s2.txt",
+      "05.normalize/GSE29378/s2.txt"
+    ]
+  },
+  {
+    "sha256": "5182220cf891eb96f3248c3afef2498187867c48aff301eb68fe7339c2708e1a",
+    "paths": [
+      "04.ann/GSE36980/geneMatrix.txt",
+      "05.normalize/GSE36980/geneMatrix.txt"
+    ]
+  },
+  {
+    "sha256": "8a18b4e85210b3bc89b560e668817fcd76e0e5d5d632fda6a4820738719db1dc",
+    "paths": [
+      "04.ann/GSE36980/s1.txt",
+      "05.normalize/GSE36980/s1.txt"
+    ]
+  },
+  {
+    "sha256": "c5640997c115fc332cb76987905ca6b858f23d0d9d0613b922ec6e8e03e7cb98",
+    "paths": [
+      "04.ann/GSE36980/s2.txt",
+      "05.normalize/GSE36980/s2.txt"
+    ]
+  },
+  {
+    "sha256": "3be1785907fc92b9322cd29d1934e876b5046891b88d322f992df73fea7aff52",
+    "paths": [
+      "04.ann/GSE37263/geneMatrix.txt",
+      "05.normalize/GSE37263/geneMatrix.txt"
+    ]
+  },
+  {
+    "sha256": "db3b4d3b8e38627c45210286b1d25d5694656da407ed30e6d0c9ca45a184636b",
+    "paths": [
+      "04.ann/GSE37263/s1.txt",
+      "05.normalize/GSE37263/s1.txt"
+    ]
+  },
+  {
+    "sha256": "53600b92af3b3efe37e1ec88034f472d404d6e71c651e33a781d93372d8ca84a",
+    "paths": [
+      "04.ann/GSE37263/s2.txt",
+      "05.normalize/GSE37263/s2.txt"
+    ]
+  },
+  {
+    "sha256": "54da20cdae2ee914b2b86586d2e3d16c60b221ee6cb873c0fb5afb1a17243ebe",
+    "paths": [
+      "04.ann/GSE5281/geneMatrix.txt",
+      "05.normalize/GSE5281/geneMatrix.txt"
+    ]
+  },
+  {
+    "sha256": "0e7f824c9faac1524789159b8ee3c83717fb966c5541e2a56504793922e002c1",
+    "paths": [
+      "04.ann/GSE5281/s1.txt",
+      "05.normalize/GSE5281/s1.txt"
+    ]
+  },
+  {
+    "sha256": "541e6dafbe3748c90662232099a36402aaf933e32998fec46f8aa2ee84d5e97d",
+    "paths": [
+      "04.ann/GSE5281/s2.txt",
+      "05.normalize/GSE5281/s2.txt"
+    ]
+  },
+  {
+    "sha256": "4dea688a08ebff2c7d839b229dec08dcd0d490f26f67202289f90643808ae1d8",
+    "paths": [
+      "05.normalize/geo05.normalize.R",
+      "05.normalize/GSE5281/geo05.normalize.R"
+    ]
+  },
+  {
+    "sha256": "0f3dd478d3c3a487a83702ba18d56145f24bc3c00fba392ed27feb1d44b0d760",
+    "paths": [
+      "05.normalize/GSE138260/GSE138260.normalize.txt",
+      "06.sva/GSE138260.normalize.txt"
+    ]
+  },
+  {
+    "sha256": "41c8626442c691e9ce4e16636886764b2403731d31bb3cb675cd71b037d8225c",
+    "paths": [
+      "05.normalize/GSE29378/GSE29378.normalize.txt",
+      "06.sva/GSE29378.normalize.txt"
+    ]
+  },
+  {
+    "sha256": "ee0601f22b90abb53f3a3976a76ceaf55db16ee11d5613657432e908928ab210",
+    "paths": [
+      "05.normalize/GSE36980/GSE36980.normalize.txt",
+      "26.testDiff/GSE36980.normalize.txt"
+    ]
+  },
+  {
+    "sha256": "a61e3ce0c9d1f17c0bcca9851e4866b913df7a1cafcdc87b4021134ec01ce170",
+    "paths": [
+      "05.normalize/GSE37263/GSE37263.normalize.txt",
+      "06.sva/GSE37263.normalize.txt"
+    ]
+  },
+  {
+    "sha256": "5d20a610112e3968afcd65557a417fa36b534bab51da29ed57c9932be225e93e",
+    "paths": [
+      "05.normalize/GSE5281/GSE5281.normalize.txt",
+      "06.sva/GSE5281.normalize.txt"
+    ]
+  },
+  {
+    "sha256": "ada8ed70d91b4e2744ce6cb7ac76a6e94d5cc045dd9810bdca8a54bd5fd675a5",
+    "paths": [
+      "06.sva/merge.normalize.txt",
+      "07.boxplot/merge.normalize.txt",
+      "08.PCA/merge.normalize.txt",
+      "09.diff/merge.normalize.txt",
+      "20.Nomo/merge.normalize.txt",
+      "21.GSEA/merge.normalize.txt",
+      "22.GSVA/merge.normalize.txt",
+      "23.CIBERSORT/merge.normalize.txt",
+      "25.linkET/merge.normalize.txt",
+      "33.vscore/merge.normalize.txt"
+    ]
+  },
+  {
+    "sha256": "549281ed3f5ba59557208908287af59ef6054f8163b07cb1969e2e914f543310",
+    "paths": [
+      "06.sva/merge.preNorm.txt",
+      "07.boxplot/merge.preNorm.txt",
+      "08.PCA/merge.preNorm.txt"
+    ]
+  },
+  {
+    "sha256": "dc60faf54f202aa215fa4a887f13d74db3f9d2fe92309ca0104ce3bc8c0bf210",
+    "paths": [
+      "09.diff/diff.txt",
+      "18.venn/diff.txt"
+    ]
+  },
+  {
+    "sha256": "f7cd7d00787febd3e8511571dd300d011ef1fecadc224eb261da6bc3c133f210",
+    "paths": [
+      "10.scRNAdownload/GSE163577_series_matrix.txt.gz",
+      "11.scRNAdata/GSE163577_series_matrix.txt.gz"
+    ]
+  },
+  {
+    "sha256": "199b7fb7a3c454b6762089ae9bf559c6c7dc096bb09024737dbba61897878dc5",
+    "paths": [
+      "15.MRdata/(p5e-08)exposure_data.csv",
+      "16.MR/(p5e-08)exposure_data.csv"
+    ]
+  },
+  {
+    "sha256": "53f44519d7335c8e2e10ed2d2c80e5040e56915d4bfd536612570ecd48ee64b0",
+    "paths": [
+      "16.MR/table.MRresult.csv",
+      "17.MRfilter/table.MRresult.csv"
+    ]
+  },
+  {
+    "sha256": "835d2f0428957d389329c61263241639e8e4625d5a5bd51080f75dda7c2fa251",
+    "paths": [
+      "16.MR/table.pleiotropy.csv",
+      "17.MRfilter/table.pleiotropy.csv"
+    ]
+  },
+  {
+    "sha256": "68a0fe67e1c5c1c737b6c6d56da3c785de725a016988ad00ef3071def8f2fc72",
+    "paths": [
+      "17.MRfilter/IVW.filter.csv",
+      "18.venn/IVW.filter.csv",
+      "19.forest/IVW.filter.csv"
+    ]
+  },
+  {
+    "sha256": "e1b84c27fbd4c1e53aec2bf8d3593c1e20786dbb9e86a87481b8f7f4e7983ba2",
+    "paths": [
+      "18.venn/interGenes.List.txt",
+      "19.forest/interGenes.List.txt",
+      "20.Nomo/interGenes.List.txt",
+      "21.GSEA/interGenes.List.txt",
+      "22.GSVA/interGenes.List.txt",
+      "25.linkET/interGenes.List.txt",
+      "26.testDiff/interGenes.List.txt",
+      "27.geneView/interGenes.List.txt",
+      "28.scTenifoldKnk/interGenes.List.txt",
+      "30.scTenifoldOE/interGenes.List.txt",
+      "36.dockData/interGenes.List.txt"
+    ]
+  },
+  {
+    "sha256": "4a87c8d1260e637ec174f5960885519d46fa29da650e70d3a3641a4d41c4fa5e",
+    "paths": [
+      "21.GSEA/c2.cp.kegg.Hs.symbols.gmt",
+      "22.GSVA/c2.cp.kegg.Hs.symbols.gmt"
+    ]
+  },
+  {
+    "sha256": "02d12dd0d5966bae788bdfaafd53edb601c7d8078678c0ad8489b9047d077e35",
+    "paths": [
+      "21.GSEA/c5.go.Hs.symbols.gmt",
+      "22.GSVA/c5.go.Hs.symbols.gmt"
+    ]
+  },
+  {
+    "sha256": "a52e5b80dd7ba5e1a54b5dfe499192de429a60f096829a42e7b9455be4164ebe",
+    "paths": [
+      "23.CIBERSORT/CIBERSORT-Results.txt",
+      "24.barplot/CIBERSORT-Results.txt",
+      "25.linkET/CIBERSORT-Results.txt"
+    ]
+  },
+  {
+    "sha256": "1d483ae8a1e9990374e10148f0a890e86151852b25f43e9cdf190bd52ad98e96",
+    "paths": [
+      "28.scTenifoldKnk/sigDiff.txt",
+      "29.Enrich/sigDiff.txt"
+    ]
+  },
+  {
+    "sha256": "4462e64f74d1a979fe0219ac7a7fe25f398c2995a10f79f0038028c52fa96375",
+    "paths": [
+      "30.scTenifoldOE/sigDiff.txt",
+      "31.Enrich/sigDiff.txt"
+    ]
+  },
+  {
+    "sha256": "0649963653bd3f9126410b81baaac19eae5de1a849e4ba35859579854254c8ba",
+    "paths": [
+      "33.vscore/input.h5ad",
+      "34.DrugReflector/input.h5ad"
+    ]
+  },
+  {
+    "sha256": "ab0242fc8f37ecd74de6a3dbb3ee1d11a0a73e4a29191f888365cf2347845e58",
+    "paths": [
+      "34.DrugReflector/__init__.py",
+      "34.DrugReflector/build/lib/drugreflector/__init__.py"
+    ]
+  },
+  {
+    "sha256": "8e7dd667deb093a462305e90cb409e1768c649581ae90389dbfaddff86d199f5",
+    "paths": [
+      "34.DrugReflector/build/lib/drugreflector/cli.py",
+      "34.DrugReflector/cli.py"
+    ]
+  },
+  {
+    "sha256": "832911e8da9ea0648b919e46381e9204f01e2cef7d5787fbd9d2455a49ebfd26",
+    "paths": [
+      "34.DrugReflector/build/lib/drugreflector/example.py",
+      "34.DrugReflector/example.py"
+    ]
+  },
+  {
+    "sha256": "9d564f3b48d15477722f044211151adb41ef3ce7961ca34a8c3c8a3f27eb88e2",
+    "paths": [
+      "34.DrugReflector/build/lib/drugreflector/LICENSE.txt",
+      "34.DrugReflector/LICENSE.txt"
+    ]
+  },
+  {
+    "sha256": "b9c578bc05fdda96a45ca93c31a39ab2d10fff639e4118c865203ff476cef5a0",
+    "paths": [
+      "34.DrugReflector/build/lib/drugreflector/README.md",
+      "34.DrugReflector/README.md"
+    ]
+  },
+  {
+    "sha256": "1799f89fccd106e78e3a3398f52938b6e5bebc9f1299d50f58abdd9d37b50240",
+    "paths": [
+      "34.DrugReflector/build/lib/drugreflector/signature_refinement/__init__.py",
+      "34.DrugReflector/signature_refinement/__init__.py"
+    ]
+  },
+  {
+    "sha256": "c9a35eb0bee73d7790a27ecfde75f1b5f6c23db3589cd98f6645e885ca2128bb",
+    "paths": [
+      "34.DrugReflector/build/lib/drugreflector/signature_refinement/signature_refinement.py",
+      "34.DrugReflector/signature_refinement/signature_refinement.py"
+    ]
+  },
+  {
+    "sha256": "64f5aa144330ae4f6d6e39137457ca79ff81c47b5506c1fe5629f417e593264f",
+    "paths": [
+      "34.DrugReflector/build/lib/drugreflector/utils.py",
+      "34.DrugReflector/utils.py"
+    ]
+  },
+  {
+    "sha256": "dbdea1c38a783d6eed6cb6c44b4007a002c1012dd5a66114b7e7b7b593cc864a",
+    "paths": [
+      "34.DrugReflector/results.csv",
+      "35.vol/results.csv"
+    ]
+  },
+  {
+    "sha256": "d46b84b8c4d266c8e6c77d25b03bf4d257b5c25e7305f17daf5dc00d99c01159",
+    "paths": [
+      "36.dockData/GSN.pdb",
+      "37.dock/GSN.pdb"
+    ]
+  }
+]

@@ -1,0 +1,69 @@
+# Paths are relative to this config file. Replace input locations before running.
+input:
+  type: seurat_rds
+  path: ../data/liver_counts_annotated.rds
+  assay: RNA
+  metadata: ../data/cell_metadata.tsv
+  metadata_columns: {}
+  gene_mapping: null
+environment:
+  r_libraries: []
+  python: null
+analysis:
+  species: human
+  target_gene: FABP1
+  readout_genes: [PPARA]
+  cell_types: [Hepatocyte]
+  conditions: [Control, Fibrosis]
+  oe_factors: [2, 5, 10]
+  technical_demo: false
+  allow_exploratory_low_donors: false
+qc:
+  min_counts: 500
+  min_genes: 200
+  max_counts: null
+  max_genes: null
+  max_mt_fraction: 0.20
+  min_cells_gene: 10
+  min_target_detection: 0.05
+  min_cells_network: 200
+  doublet_column: null
+  singlet_values: [singlet]
+network:
+  n_hvg: 3000
+  exclude_genes_regex: '^(MT-|RPL|RPS)'
+  n_net: 10
+  n_cells: 500
+  n_comp: 3
+  q: 0.9
+  td_k: 3
+  td_max_iter: 1000
+  td_max_error: 0.00001
+  td_decimals: 3
+  ma_dim: 2
+  n_cores: 1
+  memory_budget_gb: 6
+  max_cells_per_donor: 2000
+  seeds: [12345, 22345, 32345, 42345, 52345]
+  n_control_genes: 3
+  leave_one_donor_out: true
+statistics:
+  fdr: 0.05
+  min_donors_network: 3
+  min_donors_association: 5
+enrichment:
+  enabled: true
+  go_gmt: null
+  kegg_gmt: null
+  min_set_size: 10
+  max_set_size: 500
+signatures:
+  enabled: false
+  gene_sets: null
+  provenance: null
+  min_genes: 5
+expression_prediction:
+  enabled: false
+output:
+  directory: ../results/fabp1_ppara
+  save_networks: true

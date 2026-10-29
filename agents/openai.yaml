@@ -1,0 +1,6 @@
+interface:
+  display_name: "单细胞虚拟敲除与过表达"
+  short_description: "按细胞类型与供体分析虚拟基因扰动，区分网络影响与表达证据"
+  default_prompt: "使用 $single-cell-virtual-perturbation 检查我的单细胞数据，分析 FABP1 虚拟敲除及网络过表达对 PPARA 的影响，并说明证据边界。"
+policy:
+  allow_implicit_invocation: true

@@ -1,0 +1,52 @@
+{
+  "packages": {
+    "scTenifoldKnk": {
+      "version": "2.0.0",
+      "commit": "e003c72d3a153ec07512271c1ae0fbeeadc319ca",
+      "functions": {
+        ".drStatistics": "ca51a000fbcb893a2985199e0394606a8e35721dbb1e555eb9fc70d4fddb583c",
+        ".kernelEffect": "956496007c566ca18c16b621e540c8d36bedee43e3e1eb88b09e0608b64f7c93",
+        ".logCPM": "a0381c9ac1a35a55021bcc176b5165c90c36bbd1a05d1ed79191e75cd48bd923",
+        ".regressLibSize": "0ed831a886940a4caa905a41bfce23ebdf74b7e691cac6c933a224cb33ddb34a",
+        "dRegulation": "2a902916e8a28f38191cd067bf61dc09b96f416891aa7f6a7cf2ccdc1e804dfa",
+        "heatKernel": "12069624bbd0b92a9b9394ed10fa8d833fe6f7c8adca517b518958baa4219edd",
+        "hkManifoldAlignment": "46a850aa801f3c0323c97ba47e4b6f3c277ae6a4d676f37b5680f77a4be25950",
+        "knockoutDirection": "21a16f870ba7557455b70c935a8a35dd7d45e39de1a3294a3cfc07ba836e5557",
+        "perturbationMap": "a8c4356c77b65f33dd04d97d86267daa21c5114dad82fc9396186fd1ea83a4e8",
+        "placeLabels": "d0a71dfe5b252e15020de56f75c96d493b05dfc350e21dc6531124217ff2c373",
+        "plotKO": "5bbc419a268714e0fe12915b66f8371190717e7cfe189c9b86f8e9e62ce20f50",
+        "qFilter": "e114daea6eb5a1aa36bfc4590f71f2e86b60414cdab9e824c7bd629916ef8e84",
+        "restoreSeed": "ad34e9ffd68d9ffa0386376ff9bf6a494b148975ffdb9508f7706a8105888428",
+        "scQC": "b2778ac3dbd779162dc95eaf9e4bfaf4ac7d31ec6a71feab9a5b8db22a53194f",
+        "scTenifoldKnk": "aafe72232ff53116e8684a7ca840e50617839ffa7264dd331b2e4862fdec2c6e",
+        "strictDirection": "d9ab7b278a48b99b3e70c3a72f5d73da1f5458819235ac75f64ed819a1cff312"
+      }
+    },
+    "scTenifoldNet": {
+      "version": "1.4.3",
+      "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+      "functions": {
+        ".pcNetAddEmptyGenes": "af73aeecd8930dde88b8ad4f38cc587c3f05d8c3b84a2f1e7371288f34328613",
+        ".pcNetAsSparse": "b7902e25445fccb5318a322b2dfd49699a0e6a885b3f16181b3baa3c2a808c92",
+        ".pcNetCoefficients": "faefdafe2ccd7dbec444be04880d1bc031648f7e834954c8e3c69b5277567c25",
+        ".pcNetEigenBasis": "afc66b445006a3b5040b616251ff6a519a11b0ec99fb172cd5814a109df8123d",
+        ".pcNetFilterEdges": "456d7cc8a4611f4b888632c75fd8a74499c204dfd37ea873f0a13a09df15f0a9",
+        ".pcNetPriorMatrix": "171938aa87db6c0b35675edf9295ccf81e1b0720429c3afd8d4cdabb917a3350",
+        ".pcNetSecularWeights": "28d5ac95afa09a2feb73d8c1d0a100eb6ffc23d8ae317842d5aaf359aaf8ff85",
+        ".pcNetStandardize": "cf8377a95e98a4a4d0fd6572ea0c0fd0832bf65403a3c063f2dec9253731e188",
+        "as.tensor": "5c109f24a9f9816bd131268083c9cc553940f822006b1d37c121ce155acc01b7",
+        "checkMemory": "b092e5c729f8f32c6b6420cb52daa1573ad2746c757e8e6f3b391742f53d43c1",
+        "cpDecomposition": "c502d862f64b1f4aa4f954a8f47fecae6418999f1ca6239880908b603bc4594f",
+        "cpmNormalization": "9935671cb03f647456c11eab86fb7e62affab6d1d73ad656095734ff3f3ba33e",
+        "dRegulation": "b0aa649e829ae5913c0b551887348fca30476cc8ca3acee145f37d85287f4fa6",
+        "makeNetworks": "35c083e40fa63a9b5668d248d3826ef782958e6967c0705ee491552f0bba9d57",
+        "manifoldAlignment": "e8e29bee79b4e744672d15821c79be4581caa1e623d5607f14391ecbd64f475c",
+        "pcNet": "c4e5f0f40a686e8718c02adb6233cc333363009b82bc8536d72c1a312ff33f33",
+        "restoreSeed": "ad34e9ffd68d9ffa0386376ff9bf6a494b148975ffdb9508f7706a8105888428",
+        "scQC": "b2778ac3dbd779162dc95eaf9e4bfaf4ac7d31ec6a71feab9a5b8db22a53194f",
+        "scTenifoldNet": "476eefc59d6e7d0be96e65332175e5a944803a3dc4fb55f76127437375b14028",
+        "tensorDecomposition": "f525b2399e60a4af3aa8f54c092f83cb384903f1e6ff963d8263575d32040444"
+      }
+    }
+  }
+}

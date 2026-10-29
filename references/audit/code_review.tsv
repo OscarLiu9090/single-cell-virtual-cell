@@ -1,0 +1,56 @@
+﻿path	lines	review	static_flags	role
+04.ann/geo04.ann.pl	62426	PAR 打包的 Perl 引导器，含嵌入内容；不作为可维护源码运行。可追溯探针注释应使用平台注释表，记录一对多映射。	"[{""flag"": ""packed_Perl"", ""lines"": [6]}]"	source_review
+05.normalize/geo05.normalize.R	55	avereps 合并探针；按分位数猜测 log2、quantile normalize；s1/s2 选择样本后给列名附加 Control/Treat。仅适用于相应 bulk 平台，不能用于原始单细胞 counts。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [13]}, {""flag"": ""dense_conversion"", ""lines"": [17, 21]}]"	source_review
+05.normalize/GSE138260/geo05.normalize.R	55	avereps 合并探针；按分位数猜测 log2、quantile normalize；s1/s2 选择样本后给列名附加 Control/Treat。仅适用于相应 bulk 平台，不能用于原始单细胞 counts。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [13]}, {""flag"": ""dense_conversion"", ""lines"": [17, 21]}]"	source_review
+05.normalize/GSE29378/geo05.normalize.R	55	avereps 合并探针；按分位数猜测 log2、quantile normalize；s1/s2 选择样本后给列名附加 Control/Treat。仅适用于相应 bulk 平台，不能用于原始单细胞 counts。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [13]}, {""flag"": ""dense_conversion"", ""lines"": [17, 21]}]"	source_review
+05.normalize/GSE36980/geo05.normalize.R	55	avereps 合并探针；按分位数猜测 log2、quantile normalize；s1/s2 选择样本后给列名附加 Control/Treat。仅适用于相应 bulk 平台，不能用于原始单细胞 counts。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [13]}, {""flag"": ""dense_conversion"", ""lines"": [17, 21]}]"	source_review
+05.normalize/GSE37263/geo05.normalize.R	55	avereps 合并探针；按分位数猜测 log2、quantile normalize；s1/s2 选择样本后给列名附加 Control/Treat。仅适用于相应 bulk 平台，不能用于原始单细胞 counts。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [13]}, {""flag"": ""dense_conversion"", ""lines"": [17, 21]}]"	source_review
+05.normalize/GSE5281/geo05.normalize.R	55	avereps 合并探针；按分位数猜测 log2、quantile normalize；s1/s2 选择样本后给列名附加 Control/Treat。仅适用于相应 bulk 平台，不能用于原始单细胞 counts。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [13]}, {""flag"": ""dense_conversion"", ""lines"": [17, 21]}]"	source_review
+06.sva/geo06.sva.R	77	按队列取基因交集、拼列、ComBat。第二循环使用旧 file 变量排除输出；批次模型未显式保留疾病协变量。正式 bulk 复用需修正并检查混杂。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [13]}, {""flag"": ""dense_conversion"", ""lines"": [44, 48]}]"	source_review
+07.boxplot/geo07.boxplot.R	47	合并前后表达箱线图。将全部 gene×sample melt 可能占内存；默认参数 null 应为 NULL。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [9]}]"	source_review
+08.PCA/geo08.PCA.R	45	prcomp 后以项目标签绘图。null 默认值错误；应同时检查疾病分组及批次，避免只凭图判断去批次成功。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [8]}]"	source_review
+09.diff/geo09.diff.R	112	limma Treat-Control、BH、绝对logFC筛选；项目已由批次校正处理但差异设计只有分组。正式推断应明确供体及协变量，不以细胞充当样本。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [19]}, {""flag"": ""dense_conversion"", ""lines"": [23, 27]}]"	source_review
+12.Seurat/geo12.Seurat.R	235	Read10X→QC→LogNormalize→HVG→PCA/Harmony→聚类→SingleR参考注释→细胞级DEG；Sample被设为Type，供体推断不能依赖此列。阈值、参考库、旧接口及注释应重查。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [43]}, {""flag"": ""condition_as_sample"", ""lines"": [190]}]"	source_review
+13.cellChat/geo13.cellChat.R	115	疾病细胞按cellType构建配体受体通讯；直接取RNA$data不兼容全部v5场景；非细胞内FABP1–PPARA因果证据。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [29]}, {""flag"": ""dense_conversion"", ""lines"": [34]}, {""flag"": ""mixed_disease_cells"", ""lines"": [33]}]"	source_review
+14.scRNAtoolVis/geo14.scRNAtoolVis.R	76	使用课程Seurat/marker输出绘图；cellRatioPlot按错误Sample=Type只能描述分组汇总，不能代表每个供体比例。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [21]}]"	source_review
+16.MR/OE16.MR.R	111	TwoSampleMR读eQTL和VCF→harmonise→按结局P>0.05筛SNP→MR敏感性分析；选择偏差、弱工具、共定位/样本重叠和多重检验需独立审查。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [20]}]"	source_review
+17.MRfilter/OE17.IVWfilter.R	36	要求恰有5种方法、IVW名义P<.05且OR同向、多效性P>.05。未校正多基因测试，不显著的多效性检验不证明排除限制成立。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [3]}]"	source_review
+18.venn/OE18.venn.R	81	按bulk DEG方向与MR OR方向取交集。是候选筛选规则，不证明对细胞内下游基因的干预响应。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [8]}]"	source_review
+19.forest/OE19.forest.R	92	MR OR/CI森林图；输出的是现有结果可视化，不能提高原推断证据等级。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [11]}]"	source_review
+20.Nomo/OE20.Nomo.R	74	lrm/nomogram内部bootstrap校准及DCA；DCA公式固定HVCN1+GSN+SORCS3。需外部验证，和虚拟扰动不共享输入语义。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [11]}]"	source_review
+21.GSEA/OE21.GSEA.R	92	疾病bulk内按靶点中位数二分，均值差排序，使用nominal P筛选。需用FDR，处理空组/空通路；此结果不来自虚拟OE。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [19]}, {""flag"": ""dense_conversion"", ""lines"": [23, 27]}]"	source_review
+22.GSVA/OE22.GSVA.R	102	ssGSEA与疾病bulk靶点中位数分组比较；归一化跨整个矩阵、t检验未多重校正；仅观察性。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [20]}, {""flag"": ""dense_conversion"", ""lines"": [24, 28]}]"	source_review
+23.CIBERSORT/OE23.CIBERSORT.R	216	nu-SVR估计非负并归一化的细胞比例，置换相关性P；含>2026年份执行next的失效条件。属于独立bulk方法，不复制进本Skill。	"[{""flag"": ""date_condition"", ""lines"": [133]}]"	source_review
+23.CIBERSORT/OE23.run.R	29	调用CIBERSORT perm=1000并按P<.05筛样本，丢弃拟合诊断列；只用于课程bulk示例。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [9]}, {""flag"": ""dense_conversion"", ""lines"": [17]}]"	source_review
+24.barplot/OE24.barplot.R	75	免疫细胞比例堆积图与组间比较；组成数据与多细胞类型检验需专门统计方案。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [11]}]"	source_review
+25.linkET/OE25.linkET.R	104	疾病bulk靶点表达与免疫比例的Mantel/相关可视化；不推断细胞内直接调控。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [23]}, {""flag"": ""dense_conversion"", ""lines"": [27, 31]}]"	source_review
+26.testDiff/OE26.testDiff.R	67	GSE36980外部bulk候选表达Wilcoxon；换疾病须换数据并考虑协变量及多基因检验。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [17]}, {""flag"": ""dense_conversion"", ""lines"": [21, 25]}]"	source_review
+27.geneView/OE27.view.R	60	Seurat候选基因DotPlot；先定位靶点和读出的细胞类型，保留此思路但增加按供体分层。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [37]}]"	source_review
+28.scTenifoldKnk/OE28.scTenifoldKnk.R	120	疾病全部细胞→target+5000HVG→data.frame→Knk；仅输出显著表并把FC作条图。修正类型/供体、完整QC、读出保留、稀疏输入、全量输出与网络统计解释。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [20]}, {""flag"": ""dense_conversion"", ""lines"": [33]}, {""flag"": ""mixed_disease_cells"", ""lines"": [26]}]"	source_review
+29.Enrich/OE29.Enrich.R	213	GO/KEGG；p.adjustFilter=1，无universe，KEGG映射引用不存在rt$genes/entrezID。改显式背景/映射/BH，处理空集。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [31]}, {""flag"": ""uncorrected_enrichment"", ""lines"": [29]}]"	source_review
+30.scTenifoldOE/OE30.OE.R	121	调用本地自定义OE，靶点GSN、边权10倍、混合疾病细胞；需标注模型假设并共享KO的WT。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [18]}, {""flag"": ""dense_conversion"", ""lines"": [31]}, {""flag"": ""mixed_disease_cells"", ""lines"": [24]}]"	source_review
+30.scTenifoldOE/refer.scTenifoldOE.R	155	主方法在转置后WT目标行乘倍数，再流形对齐与dRegulation；qc_minCells过滤被注释。备用方法目标counts+1，两网重建且存在标准化/组成效应。主方法只作边权敏感性。	"[{""flag"": ""dense_conversion"", ""lines"": [41, 79]}, {""flag"": ""internal_API"", ""lines"": [78, 94]}]"	source_review
+31.Enrich/OE31.Enrich.R	213	同29富集算法与问题；区别主要是工作路径和说明。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [31]}, {""flag"": ""uncorrected_enrichment"", ""lines"": [29]}]"	source_review
+33.vscore/AI33.vscore.py	276	bulk两组均值差/方差尺度得到1×gene签名，并保存h5ad；不是scRNA原始counts，未包含每细胞扰动后的表达预测。	[]	source_review
+34.DrugReflector/__init__.py	31	模块导出/导入声明；顶层包与内部drugreflector包名称相同，实际安装与直接运行入口需分开验证。	[]	source_review
+34.DrugReflector/build/lib/drugreflector/__init__.py	31	打包构建副本；已按SHA-256与主源码对照。模块导出/导入声明；顶层包与内部drugreflector包名称相同，实际安装与直接运行入口需分开验证。	[]	source_review
+34.DrugReflector/build/lib/drugreflector/cli.py	115	打包构建副本；已按SHA-256与主源码对照。命令行签名预测；device参数没有接入实际设备控制，顶层import受安装目录结构影响。	[]	source_review
+34.DrugReflector/build/lib/drugreflector/example.py	56	打包构建副本；已按SHA-256与主源码对照。生成synthetic gene expression并打印模型调用示例；主要是演示，不是已验证真实预测任务。	[]	source_review
+34.DrugReflector/build/lib/drugreflector/README.md	466	打包构建副本；已按SHA-256与主源码对照。DrugReflector API与输入示例，说明签名、3模型和可选refinement；文档功能须核对本地实际实现。	[]	documentation_review
+34.DrugReflector/build/lib/drugreflector/signature_refinement/__init__.py	10	打包构建副本；已按SHA-256与主源码对照。模块导出/导入声明；顶层包与内部drugreflector包名称相同，实际安装与直接运行入口需分开验证。	[]	source_review
+34.DrugReflector/build/lib/drugreflector/signature_refinement/signature_refinement.py	525	打包构建副本；已按SHA-256与主源码对照。按compound/样本汇总表达，与表型读出Pearson相关形成签名，再按learning_rate融合；相关不是因果，极小样本/零P/常量需另处理。	[]	source_review
+34.DrugReflector/build/lib/drugreflector/utils.py	458	打包构建副本；已按SHA-256与主源码对照。clip/rescale、h5ad读取、模拟输入、pseudobulk与v-score；根目录utils提供扩展接口，内部utils只负责归一化；稀疏支持和实际scale需逐调用核对。	[]	source_review
+34.DrugReflector/cli.py	115	命令行签名预测；device参数没有接入实际设备控制，顶层import受安装目录结构影响。	[]	source_review
+34.DrugReflector/drugreflector/__init__.py	9	模块导出/导入声明；顶层包与内部drugreflector包名称相同，实际安装与直接运行入口需分开验证。	[]	source_review
+34.DrugReflector/drugreflector/drug_reflector.py	348	签名clip/rescale、字符串基因名清洗、3模型预测、softmax与排名；清洗不是ID映射，概率未校准为疗效。	[]	source_review
+34.DrugReflector/drugreflector/ensemble_model.py	269	weights_only加载三权重、恢复网络、按训练基因重排/零填充、平均logit；缺基因填零和模型域偏移需报告，不能作基因扰动表达模型。	[]	source_review
+34.DrugReflector/drugreflector/models.py	133	全连接MLP构建及activation/dropout/batchnorm；结构由权重init参数恢复。	[]	source_review
+34.DrugReflector/drugreflector/predict.py	164	直接脚本CLI，检查输入/权重并输出MultiIndex表；background-samples参数未用于背景P值。	[]	source_review
+34.DrugReflector/drugreflector/utils.py	43	内部utils仅_norm_func与clip_rescale_rows，按行裁剪/缩放签名，可能原位修改输入。	[]	source_review
+34.DrugReflector/example.py	56	生成synthetic gene expression并打印模型调用示例；主要是演示，不是已验证真实预测任务。	[]	source_review
+34.DrugReflector/pyproject.toml	120	声明drugreflector1.0.0、依赖和入口；仓库URL作者含示例占位，Python>=3.8与部分现代类型语法不匹配，不能当上游真实性证明。	[]	documentation_review
+34.DrugReflector/README.md	466	DrugReflector API与输入示例，说明签名、3模型和可选refinement；文档功能须核对本地实际实现。	[]	documentation_review
+34.DrugReflector/signature_refinement/__init__.py	10	模块导出/导入声明；顶层包与内部drugreflector包名称相同，实际安装与直接运行入口需分开验证。	[]	source_review
+34.DrugReflector/signature_refinement/signature_refinement.py	525	按compound/样本汇总表达，与表型读出Pearson相关形成签名，再按learning_rate融合；相关不是因果，极小样本/零P/常量需另处理。	[]	source_review
+34.DrugReflector/utils.py	458	clip/rescale、h5ad读取、模拟输入、pseudobulk与v-score；根目录utils提供扩展接口，内部utils只负责归一化；稀疏支持和实际scale需逐调用核对。	[]	source_review
+35.vol/AI35.vol.R	74	读取DrugReflector多行表头后绘logit/prob散点与排名柱图；不是真正DEG火山图，prob不是疗效概率。	"[{""flag"": ""hardcoded_workdir"", ""lines"": [13]}]"	source_review

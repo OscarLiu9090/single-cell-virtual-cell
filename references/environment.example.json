@@ -1,0 +1,5 @@
+{
+  "rscript": "/absolute/path/to/Rscript",
+  "python": "/absolute/path/to/python",
+  "r_libraries": ["/absolute/path/to/project-r-library"]
+}

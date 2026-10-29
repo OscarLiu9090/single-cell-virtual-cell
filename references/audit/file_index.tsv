@@ -1,0 +1,272 @@
+﻿path	bytes	sha256	format	role	data_flow	reuse
+01.简介/三虚拟分析.pdf	4377979	18908424a42c2aa47f9df05c68ba57fbb3b1c4f2dda46a7a11201ec19691d78e	.pdf	课程说明	项目全流程与演示图	阅读参考
+03.download/GSE138260/GPL27556-55246.txt	146565132	71b8a6926c2a2afdb27d587aec7fe56593d30cb078f987ad92fcf2b2a0cf8dfb	.txt	GEO 原始资料	GEO→04 注释	背景数据
+03.download/GSE138260/GSE138260_series_matrix.txt.gz	276399931	e187de7edd39754321c291defa297e8b9fe15d5abd267fc782e89d49e0f39f67	.gz	GEO 原始资料	GEO→04 注释	背景数据
+03.download/GSE29378/GPL6947-13512.txt	25399113	7b5406a5d26a608d1d2eb75ea7a7b0f573b0c49075ddb5884f1122cefd077cc0	.txt	GEO 原始资料	GEO→04 注释	背景数据
+03.download/GSE29378/GSE29378_series_matrix.txt.gz	16405324	fcb5e3e72c8b4ffd736fc51b178257631d703cda05c1d70a54d82857ad5eddf0	.gz	GEO 原始资料	GEO→04 注释	背景数据
+03.download/GSE36980/GPL6244-17930.txt	99382259	5dc92ff9809256a4441c937025d5b1774f5eb4557888faa0c792670ee6cdddee	.txt	GEO 原始资料	GEO→04 注释	背景数据
+03.download/GSE36980/GSE36980_series_matrix.txt.gz	8886746	f0a06b279f280773d086d5247fe7609fc4bd8dd71d5095f4de81bb8103e2609c	.gz	GEO 原始资料	GEO→04 注释	背景数据
+03.download/GSE37263/GPL5175-3188.txt	87297607	5231d6f4ddea5fc84ef587cfc710d6a440d76abc96f4c4ae4ebe98ab0fada6a2	.txt	GEO 原始资料	GEO→04 注释	背景数据
+03.download/GSE37263/GSE37263_series_matrix.txt.gz	1285870	ee96fdef54e3dfa9f953a35792d7e3b6546eb5dd54e0c8716b0b4efff94eaf0f	.gz	GEO 原始资料	GEO→04 注释	背景数据
+03.download/GSE5281/GPL570-55999.txt	79501274	ecbfa3a4ac145d06b2b42508a05d0c7123fbb4ab681d2b94d6e6330a9b69aa7f	.txt	GEO 原始资料	GEO→04 注释	背景数据
+03.download/GSE5281/GSE5281_series_matrix.txt.gz	35937055	4cf3d2e7948f712fe9a145fcc2e8f34767eb2715284011148b3204c732e68e36	.gz	GEO 原始资料	GEO→04 注释	背景数据
+04.ann/geo04.ann.pl	2370255	ac15111aaf8caa57e7178b941f821233ee406fe2776315adb840687ca92bc5f6	.pl	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE138260/ann.txt	146565132	71b8a6926c2a2afdb27d587aec7fe56593d30cb078f987ad92fcf2b2a0cf8dfb	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE138260/clinical.xlsx	17409	a15c4b15826f2e94f924168d2891a4dcce5574a47daadd6a4b72609c3dbec29f	.xlsx	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE138260/geneMatrix.txt	13444451	34f5519662d7cbc0215255f1a17c8244017ed521c7ee24dead345c9ccf1e161e	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE138260/GSE138260_series_matrix.txt.gz	276399931	e187de7edd39754321c291defa297e8b9fe15d5abd267fc782e89d49e0f39f67	.gz	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE138260/s1.txt	228	a4c1b41f82635c3baf24f1414fe96da092a6ddd2657199acb47bd4640666b4f1	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE138260/s2.txt	204	3535af05f12c1a2df7642fc75fe964aac589814a79e2964f411770b37291c31a	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE29378/ann.txt	25399113	7b5406a5d26a608d1d2eb75ea7a7b0f573b0c49075ddb5884f1122cefd077cc0	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE29378/clinical.xlsx	22308	64675cda5be13aa3199073a41931a510d0a9ddcdc8ded405b76526848f4b2f99	.xlsx	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE29378/geneMatrix.txt	19697131	53cd818a94eab200cf295405c9b4655f06b275b7bb2a2ce00d2c609e856f45eb	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE29378/GSE29378_series_matrix.txt.gz	16405324	fcb5e3e72c8b4ffd736fc51b178257631d703cda05c1d70a54d82857ad5eddf0	.gz	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE29378/s1.txt	352	4be08976eaa1156738a4fd9f548ea92cf5b0f405987fc26961c2657e0da03096	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE29378/s2.txt	341	5db6b73d6b898695c81f6e78ba1858bf6d10c13de8d13415fecb906d9e1b5347	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE36980/ann.txt	99382259	5dc92ff9809256a4441c937025d5b1774f5eb4557888faa0c792670ee6cdddee	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE36980/clinical.xlsx	23559	5f77d54f22a1d305b76b8ee7c959badb392fb21939a6e62fdf9fe61b76c7ea78	.xlsx	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE36980/geneMatrix.txt	15058246	5182220cf891eb96f3248c3afef2498187867c48aff301eb68fe7339c2708e1a	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE36980/GSE36980_series_matrix.txt.gz	8886746	f0a06b279f280773d086d5247fe7609fc4bd8dd71d5095f4de81bb8103e2609c	.gz	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE36980/s1.txt	517	8a18b4e85210b3bc89b560e668817fcd76e0e5d5d632fda6a4820738719db1dc	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE36980/s2.txt	364	c5640997c115fc332cb76987905ca6b858f23d0d9d0613b922ec6e8e03e7cb98	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE37263/ann.txt	87297607	5231d6f4ddea5fc84ef587cfc710d6a440d76abc96f4c4ae4ebe98ab0fada6a2	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE37263/clinical.xlsx	14050	f27e76f81f509e55d15bd13fb9d03cc6b0841a41f900c82322b57f56831ebeeb	.xlsx	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE37263/geneMatrix.txt	2322806	3be1785907fc92b9322cd29d1934e876b5046891b88d322f992df73fea7aff52	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE37263/GSE37263_series_matrix.txt.gz	1285870	ee96fdef54e3dfa9f953a35792d7e3b6546eb5dd54e0c8716b0b4efff94eaf0f	.gz	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE37263/s1.txt	88	db3b4d3b8e38627c45210286b1d25d5694656da407ed30e6d0c9ca45a184636b	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE37263/s2.txt	88	53600b92af3b3efe37e1ec88034f472d404d6e71c651e33a781d93372d8ca84a	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE5281/ann.txt	79501274	ecbfa3a4ac145d06b2b42508a05d0c7123fbb4ab681d2b94d6e6330a9b69aa7f	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE5281/clinical.xlsx	43621	3bf63247b5f160c52149ede1fb9a245782317540c455c8e96aeaa3e13bd904eb	.xlsx	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE5281/geneMatrix.txt	37512950	54da20cdae2ee914b2b86586d2e3d16c60b221ee6cb873c0fb5afb1a17243ebe	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE5281/GSE5281_series_matrix.txt.gz	35937055	4cf3d2e7948f712fe9a145fcc2e8f34767eb2715284011148b3204c732e68e36	.gz	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE5281/probe.txt	77423137	3f480d728cda2a65c6bb50a7b4853b48c47b10634ee8b4131a9506b9b270ff35	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE5281/s1.txt	814	0e7f824c9faac1524789159b8ee3c83717fb966c5541e2a56504793922e002c1	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+04.ann/GSE5281/s2.txt	957	541e6dafbe3748c90662232099a36402aaf933e32998fec46f8aa2ee84d5e97d	.txt	探针注释	表达矩阵/平台注释→geneMatrix	bulk 扩展
+05.normalize/geo05.normalize.R	1879	4dea688a08ebff2c7d839b229dec08dcd0d490f26f67202289f90643808ae1d8	.r	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE138260/geneMatrix.txt	13444451	34f5519662d7cbc0215255f1a17c8244017ed521c7ee24dead345c9ccf1e161e	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE138260/geo05.normalize.R	1881	338c38c3755787aac04db242e4ec23247d262fc3e7e1d19e8dbb980efe43823a	.r	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE138260/GSE138260.normalize.txt	12951930	0f3dd478d3c3a487a83702ba18d56145f24bc3c00fba392ed27feb1d44b0d760	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE138260/s1.txt	228	a4c1b41f82635c3baf24f1414fe96da092a6ddd2657199acb47bd4640666b4f1	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE138260/s2.txt	204	3535af05f12c1a2df7642fc75fe964aac589814a79e2964f411770b37291c31a	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE29378/geneMatrix.txt	19697131	53cd818a94eab200cf295405c9b4655f06b275b7bb2a2ce00d2c609e856f45eb	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE29378/geo05.normalize.R	1880	0f2302455304e8f739ffb4189eb69f4fa4ed2a4867ccc4c55061ea6039f1a82f	.r	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE29378/GSE29378.normalize.txt	26973560	41c8626442c691e9ce4e16636886764b2403731d31bb3cb675cd71b037d8225c	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE29378/s1.txt	352	4be08976eaa1156738a4fd9f548ea92cf5b0f405987fc26961c2657e0da03096	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE29378/s2.txt	341	5db6b73d6b898695c81f6e78ba1858bf6d10c13de8d13415fecb906d9e1b5347	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE36980/geneMatrix.txt	15058246	5182220cf891eb96f3248c3afef2498187867c48aff301eb68fe7339c2708e1a	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE36980/geo05.normalize.R	1880	f13997d0554593e48c6d5d4b0a76321cb4801b512256fd75bb8ea671d59f876c	.r	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE36980/GSE36980.normalize.txt	22906139	ee0601f22b90abb53f3a3976a76ceaf55db16ee11d5613657432e908928ab210	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE36980/s1.txt	517	8a18b4e85210b3bc89b560e668817fcd76e0e5d5d632fda6a4820738719db1dc	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE36980/s2.txt	364	c5640997c115fc332cb76987905ca6b858f23d0d9d0613b922ec6e8e03e7cb98	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE37263/geneMatrix.txt	2322806	3be1785907fc92b9322cd29d1934e876b5046891b88d322f992df73fea7aff52	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE37263/geo05.normalize.R	1880	2482af6b0935207352baeae46f78762a1771c5c4ef1f75fb0775bea2ee49b043	.r	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE37263/GSE37263.normalize.txt	3276125	a61e3ce0c9d1f17c0bcca9851e4866b913df7a1cafcdc87b4021134ec01ce170	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE37263/s1.txt	88	db3b4d3b8e38627c45210286b1d25d5694656da407ed30e6d0c9ca45a184636b	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE37263/s2.txt	88	53600b92af3b3efe37e1ec88034f472d404d6e71c651e33a781d93372d8ca84a	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE5281/geneMatrix.txt	37512950	54da20cdae2ee914b2b86586d2e3d16c60b221ee6cb873c0fb5afb1a17243ebe	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE5281/geo05.normalize.R	1879	4dea688a08ebff2c7d839b229dec08dcd0d490f26f67202289f90643808ae1d8	.r	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE5281/GSE5281.normalize.txt	62401492	5d20a610112e3968afcd65557a417fa36b534bab51da29ed57c9932be225e93e	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE5281/s1.txt	814	0e7f824c9faac1524789159b8ee3c83717fb966c5541e2a56504793922e002c1	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+05.normalize/GSE5281/s2.txt	957	541e6dafbe3748c90662232099a36402aaf933e32998fec46f8aa2ee84d5e97d	.txt	bulk 标准化	geneMatrix+s1/s2→normalize	不用于单细胞原始计数
+06.sva/geo06.sva.R	2363	fa2c6763dd279ff4692f40645bc4a88530cc9fb411ac658a5e1b914370dd1a50	.r	bulk 合并去批次	各队列 normalize→merge	bulk 扩展
+06.sva/GSE138260.normalize.txt	12951930	0f3dd478d3c3a487a83702ba18d56145f24bc3c00fba392ed27feb1d44b0d760	.txt	bulk 合并去批次	各队列 normalize→merge	bulk 扩展
+06.sva/GSE29378.normalize.txt	26973560	41c8626442c691e9ce4e16636886764b2403731d31bb3cb675cd71b037d8225c	.txt	bulk 合并去批次	各队列 normalize→merge	bulk 扩展
+06.sva/GSE37263.normalize.txt	3276125	a61e3ce0c9d1f17c0bcca9851e4866b913df7a1cafcdc87b4021134ec01ce170	.txt	bulk 合并去批次	各队列 normalize→merge	bulk 扩展
+06.sva/GSE5281.normalize.txt	62401492	5d20a610112e3968afcd65557a417fa36b534bab51da29ed57c9932be225e93e	.txt	bulk 合并去批次	各队列 normalize→merge	bulk 扩展
+06.sva/merge.normalize.txt	65475686	ada8ed70d91b4e2744ce6cb7ac76a6e94d5cc045dd9810bdca8a54bd5fd675a5	.txt	bulk 合并去批次	各队列 normalize→merge	bulk 扩展
+06.sva/merge.preNorm.txt	37303157	549281ed3f5ba59557208908287af59ef6054f8163b07cb1969e2e914f543310	.txt	bulk 合并去批次	各队列 normalize→merge	bulk 扩展
+07.boxplot/geo07.boxplot.R	1687	9fd2efad2a4756cfd83c60a8f78726b10294bde693747e093c8888b05b889648	.r	箱线图	合并前后矩阵→分布图	可视化参考
+07.boxplot/merge.normalize.txt	65475686	ada8ed70d91b4e2744ce6cb7ac76a6e94d5cc045dd9810bdca8a54bd5fd675a5	.txt	箱线图	合并前后矩阵→分布图	可视化参考
+07.boxplot/merge.preNorm.txt	37303157	549281ed3f5ba59557208908287af59ef6054f8163b07cb1969e2e914f543310	.txt	箱线图	合并前后矩阵→分布图	可视化参考
+08.PCA/geo08.PCA.R	1531	14227c22541257ecf58d3d5848be58ae981929b75e58d90853a7d04d79ce15a3	.r	PCA	合并前后矩阵→PCA	可视化参考
+08.PCA/merge.normalize.txt	65475686	ada8ed70d91b4e2744ce6cb7ac76a6e94d5cc045dd9810bdca8a54bd5fd675a5	.txt	PCA	合并前后矩阵→PCA	可视化参考
+08.PCA/merge.preNorm.txt	37303157	549281ed3f5ba59557208908287af59ef6054f8163b07cb1969e2e914f543310	.txt	PCA	合并前后矩阵→PCA	可视化参考
+09.diff/all.txt	1633426	977d0a58b2306383e046ddc03a959c80a6b0d90ae17d3eede8ab6cd9a51d69d7	.txt	bulk 差异	合并矩阵→limma DEG	可选背景证据
+09.diff/diff.txt	74028	dc60faf54f202aa215fa4a887f13d74db3f9d2fe92309ca0104ce3bc8c0bf210	.txt	bulk 差异	合并矩阵→limma DEG	可选背景证据
+09.diff/diffGeneExp.txt	1570013	dfd0996f09e450f46cf432f3057b270e19676267fb61444e4603ddfec74dbcb4	.txt	bulk 差异	合并矩阵→limma DEG	可选背景证据
+09.diff/geo09.diff.R	3885	0620eabdf985673439890d72df003ac5e4f4526e613772f367aa66958dd5cff8	.r	bulk 差异	合并矩阵→limma DEG	可选背景证据
+09.diff/merge.normalize.txt	65475686	ada8ed70d91b4e2744ce6cb7ac76a6e94d5cc045dd9810bdca8a54bd5fd675a5	.txt	bulk 差异	合并矩阵→limma DEG	可选背景证据
+10.scRNAdownload/GSE163577_series_matrix.txt.gz	2226	f7cd7d00787febd3e8511571dd300d011ef1fecadc224eb261da6bc3c133f210	.gz	单细胞下载元数据	GEO→样本信息	技术演示来源
+11.scRNAdata/clinical.xlsx	13714	a7be9bee2c6cf9fc4ef4bfccc9dafbc3c356304933047624be7a2550110231a7	.xlsx	单细胞整理	GEO+临床表→12	技术演示来源
+11.scRNAdata/GSE163577_series_matrix.txt.gz	2226	f7cd7d00787febd3e8511571dd300d011ef1fecadc224eb261da6bc3c133f210	.gz	单细胞整理	GEO+临床表→12	技术演示来源
+12.Seurat/03.Cluster.txt	4223788	faf9c22e4f54e928ff71a944f5f1f5f484a6e03e31365d659f3a521e8e8df1ed	.txt	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/03.clusterMarkers.txt	538998	e2a1982e5fde7f3ffa516297da23bfa95c6d509920f63adcf6a5ebd7baa2287d	.txt	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/04.cellAnn.txt	5287752	d709dc74c3d3058fbff282c74e383cf3cdd1563b6f9cd719840d3b7f9a956704	.txt	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/04.cellMarkers.txt	142201	e558a9d6c74ae50696f05d2b0586d6882a3ea7f79c66a150565ace4e0f390017	.txt	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/04.clusterAnn.txt	469	2ae90a9dce402e5efa92a489b27b77337bf25676edf66193c272be137415ecd4	.txt	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/05.Astrocyte.diffGene.txt	70759	1be6a2beffd37ff6121c9957f61d73e4e37bb82150a758a73384d052cc770a8f	.txt	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/05.Chondrocytes.diffGene.txt	10046	307678cd71b8ab07e9524bac5015ccffd5a950abd4acf88c7cc2baa8d652949a	.txt	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/05.Endothelial cells.diffGene.txt	47966	3eec01909ef350ac386e70888c8d5d8d2b1ee09e220346b4c2dced4717c10133	.txt	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/05.Fibroblasts.diffGene.txt	56498	59129f048ae3aad62ec0862dcb328386c9971a129ee1a695617137c3558c80f9	.txt	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/05.Macrophages.diffGene.txt	19861	8f61a3285d1d1412507bbae556e15eafe527d93770dabd62380f084ad138549d	.txt	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/05.Neurons.diffGene.txt	58786	9b0a621e961aecff65273cb47eafa74715e3b2fd664331a3eec0a521b3694225	.txt	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/05.NK cells.diffGene.txt	805	8530abb4b93151dc9aa775e6fa49c67c70a36fc67b72aaac9d8669ea41d16e7c	.txt	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/BlueprintEncode_bpe.se_human.RData	14932258	7d46ec3525b8fa7e0fbaecaaee1dbaa25786ea489c63f9003591812facfd52ca	.rdata	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Control.GSM4982083/barcodes.tsv.gz	60879	abacc4ca7aef94d0f46a3e69a1972fa13c8ab63ef35ba331d22ceca3179aefc7	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Control.GSM4982083/features.tsv.gz	304728	5baed696b4b1d9592d9b6845b3f581bac7ea0c44a68d7beed750e22741594a11	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Control.GSM4982083/matrix.mtx.gz	36311251	875e29a86f3d6b8211a9424ba71f049222f98f0497f5e6da393805882177812b	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Control.GSM4982085/barcodes.tsv.gz	55692	28f72e8dafcbb87ea00adf9bb7e98a4252eb7c543385775f2b21f238f089719c	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Control.GSM4982085/features.tsv.gz	304728	b6085b42d64197c02fd18aede0ad9b89d3b8c53a09848bcf1b6121650f505823	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Control.GSM4982085/matrix.mtx.gz	12537614	282fe9fafc90ace11208c9cdf7fd6b5bd65c945d75c02e94e7f035b52369bfd8	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Control.GSM4982086/barcodes.tsv.gz	51037	32543910f8fe544c33f1fed1956f66a4dc05205f3614c0514a0f26e982f57816	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Control.GSM4982086/features.tsv.gz	304728	f5a3d66051db3a6f7e87f9602d2d73c3720114bc6a278133f9c80bf2223d153a	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Control.GSM4982086/matrix.mtx.gz	44735208	707a12aeee2af8e6dfca86c22c7e41d1ab352ee368034602e589efd722536a98	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Control.GSM4982087/barcodes.tsv.gz	92843	4827159840fc3e61d6d27d54466acc5fed4e7b74d39394fa4590e105b856fca7	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Control.GSM4982087/features.tsv.gz	304728	6d3f5e4d20992d7f08015d5f772bc29de88e056c2d74f599b40de709be3a2782	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Control.GSM4982087/matrix.mtx.gz	70187714	3962840d4129db23c5b24db090f3b937c05e09a29f50d6ab9bf4bf4c6025ba2a	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/DatabaseImmuneCellExpressionData.Rdata	305850405	856e92c3baa20570a9153d374c9271ef01216f46896cbddb8ffba780986062a9	.rdata	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Disease.GSM4982084/barcodes.tsv.gz	91680	50c7fbc81d1b73b94f0d09e869f8c8af1c4e260553f05d0b598382ad758ac876	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Disease.GSM4982084/features.tsv.gz	304728	d9e725f80786ae3b593e1e4fd8bae9617f683c83d2447ec88fd4750baf39a5de	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Disease.GSM4982084/matrix.mtx.gz	65489890	9532768713cc5e0f0253ec5ac5069012140593b0ccb25fae23c603d9eb847f3a	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Disease.GSM4982089/barcodes.tsv.gz	53642	819b118480eb93ff77da98e54244c17a01be3cc5c40b7b546ce8ebee0242f409	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Disease.GSM4982089/features.tsv.gz	304728	336ed169928b4ac72ab9f22cbe6c3930489b45e8a765a157629f7e816d4d5945	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Disease.GSM4982089/matrix.mtx.gz	21623058	58e0f429941faf9230ca7af8d3ad3d22a5b20f8329191663596894faf930dc39	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Disease.GSM4982090/barcodes.tsv.gz	46475	323b2e70fc1ee05c1fc3bf852d4276004556a4eb7c2eb84281abd2d2bce2dff1	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Disease.GSM4982090/features.tsv.gz	304728	8fbee1fb9a996a77633d82a3c289df8c77e9aecd7016535b989db1bc677bb399	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Disease.GSM4982090/matrix.mtx.gz	14557339	a2bd6481b39cf5e9ed556cf4e386f02df030041c99a97d5da32bc26c04dee2d8	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Disease.GSM4982093/barcodes.tsv.gz	57603	0a6be81a626c3084c4a0031439c6221f666049f1b5c5fcd3a3ab52caf29a504b	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Disease.GSM4982093/features.tsv.gz	304728	6cb6b25a84010e0db4b61419e0a8edac8551a80ae89b018099c76645c21726df	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Disease.GSM4982093/matrix.mtx.gz	25728058	c2696224c239b91059058a8bf033b16903146864c0dbf958c69e2365ff7d7f26	.gz	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/geo12.Seurat.R	9583	3e395c3069a1f51ea034568c3c5ce654453dd194b622dc1a4ae4fd1d2583515b	.r	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/HumanPrimaryCellAtlas_hpca.se_human.RData	44043238	dfad931dbf944103c7e191a7f8aea30d7cacd5b6248892beb240f3cbac0fb650	.rdata	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/MonacoImmuneData.Rdata	24747124	291dbb20b867abeb63f69a4b630a92d7512671d2f0691e76a55fac5470994314	.rdata	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/NovershternHematopoieticData.Rdata	8995583	fcab5be7fa214df84fb901c7c7a55a247c2fc302802f0eaee723660aca48cb92	.rdata	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/ref_Hematopoietic.RData	22836969	46e22384ec9c6e111cd884411015b45e3d60a07f579081420d6150014c82eec7	.rdata	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/ref_Human_all.RData	111043665	dbd2fa3eca99c8ea2e9f24f066fb2dccdd9ad7c8df8d4dbbb76d95de8c6dc2ce	.rdata	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+12.Seurat/Seurat.Rdata	526041750	93a36a5444c24994bd9feebd0362262a3eddf4e5d99205851e49c8020f96c26c	.rdata	Seurat 预处理与注释	10X→Seurat.Rdata/细胞注释	核心重构，供体与细胞类型需核验
+13.cellChat/COMM02.Comm.network.xls	870	988f9ae57428ac189e5046bb8c596f58c8b9bc5562c79a4aa813a710d062effa	.xls	CellChat	归一化表达+细胞类型→通讯	可选扩展，不证明细胞内 FABP1→PPARA
+13.cellChat/geo13.cellChat.R	4205	c8295afa089e89d46e0684f9aa8f5beb17b882b4614b680d4d49e1ba023ba6b1	.r	CellChat	归一化表达+细胞类型→通讯	可选扩展，不证明细胞内 FABP1→PPARA
+14.scRNAtoolVis/geo14.scRNAtoolVis.R	2628	03bcabba4db2fb1b9a31fc40a5f09a276c58ea7dfb09cab44786e0f9c2ff2604	.r	单细胞绘图	Seurat+markers→图	可视化参考
+15.MRdata/(p1e-05)exposure_data.csv	6421009	f1ade747a7daaf3863424938c1d56ecf469d8d1a99ecfc4046ad89a4ff3be0d2	.csv	MR 输入	eQTL+AD GWAS→16	可选扩展
+15.MRdata/(p5e-06)exposure_data.csv	5759686	69d0835b6e7766424fb68c9db16201929705daec20e249f006218ac5a852e445	.csv	MR 输入	eQTL+AD GWAS→16	可选扩展
+15.MRdata/(p5e-08)exposure_data.csv	4474796	199b7fb7a3c454b6762089ae9bf559c6c7dc096bb09024737dbba61897878dc5	.csv	MR 输入	eQTL+AD GWAS→16	可选扩展
+15.MRdata/finn-b-G6_ALZHEIMER.vcf.gz	447726170	3ec6881629d88e91ac34ad8c41e2fe34c82b75a6fdfa7c67b19ccd2be0f44f71	.gz	MR 输入	eQTL+AD GWAS→16	可选扩展
+16.MR/(p5e-08)exposure_data.csv	4474796	199b7fb7a3c454b6762089ae9bf559c6c7dc096bb09024737dbba61897878dc5	.csv	孟德尔随机化	暴露/结局→MR结果	需重新审查设计，不作为扰动前提
+16.MR/OE16.MR.R	3961	86dc085c670d02256bd75418b18168172a9febbbdaa51ef4c05f5f250181654a	.r	孟德尔随机化	暴露/结局→MR结果	需重新审查设计，不作为扰动前提
+16.MR/outcome.csv	1800963	b37ac9c7dd6619654a5c93c7fe2afd58e306997acaba684ccd449c4e8b94e90e	.csv	孟德尔随机化	暴露/结局→MR结果	需重新审查设计，不作为扰动前提
+16.MR/table.heterogeneity.csv	1174624	34f5c7d85ead35742d0bcc74e3940afee8e6ecfb025865cc13f53b7ec0e97e37	.csv	孟德尔随机化	暴露/结局→MR结果	需重新审查设计，不作为扰动前提
+16.MR/table.MRresult.csv	5282851	53f44519d7335c8e2e10ed2d2c80e5040e56915d4bfd536612570ecd48ee64b0	.csv	孟德尔随机化	暴露/结局→MR结果	需重新审查设计，不作为扰动前提
+16.MR/table.pleiotropy.csv	591679	835d2f0428957d389329c61263241639e8e4625d5a5bd51080f75dda7c2fa251	.csv	孟德尔随机化	暴露/结局→MR结果	需重新审查设计，不作为扰动前提
+16.MR/table.SNP.csv	5995141	92a1fcaa07efae254fcd84bcec0ad28235bfc8531bb3fdae892e2e3dc91c3b5b	.csv	孟德尔随机化	暴露/结局→MR结果	需重新审查设计，不作为扰动前提
+17.MRfilter/IVW.filter.csv	99492	68a0fe67e1c5c1c737b6c6d56da3c785de725a016988ad00ef3071def8f2fc72	.csv	MR 筛选	MR/多效性→IVW筛选	可选扩展
+17.MRfilter/OE17.IVWfilter.R	1211	9b644060b00dba0082d99e1723a784d074a4ac78f0cdea58fc352b27613a29e9	.r	MR 筛选	MR/多效性→IVW筛选	可选扩展
+17.MRfilter/table.MRresult.csv	5282851	53f44519d7335c8e2e10ed2d2c80e5040e56915d4bfd536612570ecd48ee64b0	.csv	MR 筛选	MR/多效性→IVW筛选	可选扩展
+17.MRfilter/table.pleiotropy.csv	591679	835d2f0428957d389329c61263241639e8e4625d5a5bd51080f75dda7c2fa251	.csv	MR 筛选	MR/多效性→IVW筛选	可选扩展
+18.venn/diff.txt	74028	dc60faf54f202aa215fa4a887f13d74db3f9d2fe92309ca0104ce3bc8c0bf210	.txt	DEG 与 MR 交集	09+17→候选基因	已指定靶点时无需此步骤
+18.venn/interGenes.List.txt	20	e1b84c27fbd4c1e53aec2bf8d3593c1e20786dbb9e86a87481b8f7f4e7983ba2	.txt	DEG 与 MR 交集	09+17→候选基因	已指定靶点时无需此步骤
+18.venn/interGenes.Type.txt	42	02b0534e1e6636fc3c06d62b4ddc1bdedc1f006ed84fc13a1cf830db26216b5e	.txt	DEG 与 MR 交集	09+17→候选基因	已指定靶点时无需此步骤
+18.venn/IVW.filter.csv	99492	68a0fe67e1c5c1c737b6c6d56da3c785de725a016988ad00ef3071def8f2fc72	.csv	DEG 与 MR 交集	09+17→候选基因	已指定靶点时无需此步骤
+18.venn/OE18.venn.R	2824	7b2730d0c0b2218e2cb3cde80276cc6886aa1c7f760463758f9a156800d9af16	.r	DEG 与 MR 交集	09+17→候选基因	已指定靶点时无需此步骤
+19.forest/interGenes.List.txt	20	e1b84c27fbd4c1e53aec2bf8d3593c1e20786dbb9e86a87481b8f7f4e7983ba2	.txt	森林图	MR结果+候选→图	绘图参考
+19.forest/IVW.filter.csv	99492	68a0fe67e1c5c1c737b6c6d56da3c785de725a016988ad00ef3071def8f2fc72	.csv	森林图	MR结果+候选→图	绘图参考
+19.forest/OE19.forest.R	3913	c10db1f6ee2b74fcc5ede4c4d00caccfab30497209a37c49567243ebea86a9eb	.r	森林图	MR结果+候选→图	绘图参考
+20.Nomo/interGenes.List.txt	20	e1b84c27fbd4c1e53aec2bf8d3593c1e20786dbb9e86a87481b8f7f4e7983ba2	.txt	列线图模型	表达+候选→诊断图	无关主线
+20.Nomo/merge.normalize.txt	65475686	ada8ed70d91b4e2744ce6cb7ac76a6e94d5cc045dd9810bdca8a54bd5fd675a5	.txt	列线图模型	表达+候选→诊断图	无关主线
+20.Nomo/OE20.Nomo.R	2019	ee36a26ca28c4328f77f8aaff58e57597ff4c955429c33e74c24657f3345ab19	.r	列线图模型	表达+候选→诊断图	无关主线
+21.GSEA/c2.cp.kegg.Hs.symbols.gmt	100274	4a87c8d1260e637ec174f5960885519d46fa29da650e70d3a3641a4d41c4fa5e	.gmt	GSEA	bulk 靶点高低表达→排序富集	观察关联，不代表虚拟扰动
+21.GSEA/c5.go.Hs.symbols.gmt	6607861	02d12dd0d5966bae788bdfaafd53edb601c7d8078678c0ad8489b9047d077e35	.gmt	GSEA	bulk 靶点高低表达→排序富集	观察关联，不代表虚拟扰动
+21.GSEA/GSN.result.txt	20440	bbd68f64df0ea5117e3b8b73ecea3611932104d927e823fcc6689ada8dea678e	.txt	GSEA	bulk 靶点高低表达→排序富集	观察关联，不代表虚拟扰动
+21.GSEA/HVCN1.result.txt	24293	4f6313b5c4a0d6db9c841fa0628a7739140d3ebf39e404e9c57c17c433004ff9	.txt	GSEA	bulk 靶点高低表达→排序富集	观察关联，不代表虚拟扰动
+21.GSEA/interGenes.List.txt	20	e1b84c27fbd4c1e53aec2bf8d3593c1e20786dbb9e86a87481b8f7f4e7983ba2	.txt	GSEA	bulk 靶点高低表达→排序富集	观察关联，不代表虚拟扰动
+21.GSEA/merge.normalize.txt	65475686	ada8ed70d91b4e2744ce6cb7ac76a6e94d5cc045dd9810bdca8a54bd5fd675a5	.txt	GSEA	bulk 靶点高低表达→排序富集	观察关联，不代表虚拟扰动
+21.GSEA/OE21.GSEA.R	2975	5a0443653723f786dd8e8fb4032e9c468da9a10e4f5c1f10dca9b461f0849643	.r	GSEA	bulk 靶点高低表达→排序富集	观察关联，不代表虚拟扰动
+21.GSEA/SORCS3.result.txt	20434	95dad222247a27de886b31170db4cb6457ecfa98213c974934ed3f2e776bcb6a	.txt	GSEA	bulk 靶点高低表达→排序富集	观察关联，不代表虚拟扰动
+22.GSVA/c2.cp.kegg.Hs.symbols.gmt	100274	4a87c8d1260e637ec174f5960885519d46fa29da650e70d3a3641a4d41c4fa5e	.gmt	GSVA/ssGSEA	bulk+基因集→通路评分	可选观察关联
+22.GSVA/c5.go.Hs.symbols.gmt	6607861	02d12dd0d5966bae788bdfaafd53edb601c7d8078678c0ad8489b9047d077e35	.gmt	GSVA/ssGSEA	bulk+基因集→通路评分	可选观察关联
+22.GSVA/interGenes.List.txt	20	e1b84c27fbd4c1e53aec2bf8d3593c1e20786dbb9e86a87481b8f7f4e7983ba2	.txt	GSVA/ssGSEA	bulk+基因集→通路评分	可选观察关联
+22.GSVA/merge.normalize.txt	65475686	ada8ed70d91b4e2744ce6cb7ac76a6e94d5cc045dd9810bdca8a54bd5fd675a5	.txt	GSVA/ssGSEA	bulk+基因集→通路评分	可选观察关联
+22.GSVA/OE22.GSVA.R	3388	34409363edbe3971db7a3a1961fb272942782a009bfb6795c979f6c2e96bf508	.r	GSVA/ssGSEA	bulk+基因集→通路评分	可选观察关联
+23.CIBERSORT/CIBERSORT-Results.txt	68925	a52e5b80dd7ba5e1a54b5dfe499192de429a60f096829a42e7b9455be4164ebe	.txt	CIBERSORT	bulk+参考→免疫比例	不作为单细胞前提
+23.CIBERSORT/merge.normalize.txt	65475686	ada8ed70d91b4e2744ce6cb7ac76a6e94d5cc045dd9810bdca8a54bd5fd675a5	.txt	CIBERSORT	bulk+参考→免疫比例	不作为单细胞前提
+23.CIBERSORT/OE23.CIBERSORT.R	6360	82606f17a28be162b6d585a4dc6a10a8e2cbb6ba3d88ceee0a086c4fbaad5d3e	.r	CIBERSORT	bulk+参考→免疫比例	不作为单细胞前提
+23.CIBERSORT/OE23.run.R	938	f6e6c2f19603aa64c72f83cda778b0b9c65bb542eccfe61af8f93ce0360f7db1	.r	CIBERSORT	bulk+参考→免疫比例	不作为单细胞前提
+23.CIBERSORT/ref.txt	146759	8b1b4bb21fffcb10d25ecb6df9aafa3a24b527c35130b9d65e9341a6287cd36c	.txt	CIBERSORT	bulk+参考→免疫比例	不作为单细胞前提
+24.barplot/CIBERSORT-Results.txt	68925	a52e5b80dd7ba5e1a54b5dfe499192de429a60f096829a42e7b9455be4164ebe	.txt	免疫比例图	CIBERSORT→图	绘图参考
+24.barplot/OE24.barplot.R	2690	5decff22abd205c8b68c94e0182662904e7ae457b62c90aefb4e120a4f7344fc	.r	免疫比例图	CIBERSORT→图	绘图参考
+25.linkET/CIBERSORT-Results.txt	68925	a52e5b80dd7ba5e1a54b5dfe499192de429a60f096829a42e7b9455be4164ebe	.txt	免疫相关性	bulk+免疫比例→相关图	观察关联
+25.linkET/interGenes.List.txt	20	e1b84c27fbd4c1e53aec2bf8d3593c1e20786dbb9e86a87481b8f7f4e7983ba2	.txt	免疫相关性	bulk+免疫比例→相关图	观察关联
+25.linkET/merge.normalize.txt	65475686	ada8ed70d91b4e2744ce6cb7ac76a6e94d5cc045dd9810bdca8a54bd5fd675a5	.txt	免疫相关性	bulk+免疫比例→相关图	观察关联
+25.linkET/OE25.linkET.R	3521	7488161b1244d3c2c04ace61b0c2da6a1c55ccb24a0d74e8b5a27fba01bfc7dd	.r	免疫相关性	bulk+免疫比例→相关图	观察关联
+26.testDiff/GSE36980.normalize.txt	22906139	ee0601f22b90abb53f3a3976a76ceaf55db16ee11d5613657432e908928ab210	.txt	外部 bulk 验证	GSE36980+候选→图	疾病特异数据需替换
+26.testDiff/interGenes.List.txt	20	e1b84c27fbd4c1e53aec2bf8d3593c1e20786dbb9e86a87481b8f7f4e7983ba2	.txt	外部 bulk 验证	GSE36980+候选→图	疾病特异数据需替换
+26.testDiff/OE26.testDiff.R	2049	67f718efd3e5053e9effd6406cc33dd9aab354fc9da2c0a6c2bf585aa532456c	.r	外部 bulk 验证	GSE36980+候选→图	疾病特异数据需替换
+27.geneView/interGenes.List.txt	20	e1b84c27fbd4c1e53aec2bf8d3593c1e20786dbb9e86a87481b8f7f4e7983ba2	.txt	靶基因定位	Seurat+候选→DotPlot	核心定位思路保留
+27.geneView/OE27.view.R	1519	09d5b2405644a486d41bffe3d994e452faf17af2c4df5c715a74e0b8038d33a4	.r	靶基因定位	Seurat+候选→DotPlot	核心定位思路保留
+28.scTenifoldKnk/interGenes.List.txt	20	e1b84c27fbd4c1e53aec2bf8d3593c1e20786dbb9e86a87481b8f7f4e7983ba2	.txt	虚拟 KO	疾病 counts→scTenifoldKnk→网络差异	核心重构
+28.scTenifoldKnk/OE28.scTenifoldKnk.R	4396	8c32f523820c12bb2886c28393b3d22f5a9d2f72a43c66ff0a8531a87d0c7c2c	.r	虚拟 KO	疾病 counts→scTenifoldKnk→网络差异	核心重构
+28.scTenifoldKnk/sigDiff.txt	8443	1d483ae8a1e9990374e10148f0a890e86151852b25f43e9cdf190bd52ad98e96	.txt	虚拟 KO	疾病 counts→scTenifoldKnk→网络差异	核心重构
+29.Enrich/GO.txt	95779	b56a198e78ea3f135f3468b16fbbf11f74ffec5af8c4c8ff2733ae934395e38d	.txt	KO 富集	sigDiff→GO/KEGG	重构背景、映射和FDR
+29.Enrich/KEGG.txt	7165	2a66b556857ff0b9f6293eb72bb72fdbe813f4598a281291e79847a448a99092	.txt	KO 富集	sigDiff→GO/KEGG	重构背景、映射和FDR
+29.Enrich/OE29.Enrich.R	9539	d2e5e636f11d74d3d507ceaff31dbf31ad293c58e818248037db463aa601f89c	.r	KO 富集	sigDiff→GO/KEGG	重构背景、映射和FDR
+29.Enrich/sigDiff.txt	8443	1d483ae8a1e9990374e10148f0a890e86151852b25f43e9cdf190bd52ad98e96	.txt	KO 富集	sigDiff→GO/KEGG	重构背景、映射和FDR
+30.scTenifoldOE/interGenes.List.txt	20	e1b84c27fbd4c1e53aec2bf8d3593c1e20786dbb9e86a87481b8f7f4e7983ba2	.txt	网络边权 OE	疾病 counts→WT→靶点行放大→差异	核心自定义敏感性模拟
+30.scTenifoldOE/OE30.OE.R	4140	c336ad428b577f04e1cdbe2502ae47b9c1fe625bd686823c0c487ab863d69aee	.r	网络边权 OE	疾病 counts→WT→靶点行放大→差异	核心自定义敏感性模拟
+30.scTenifoldOE/refer.scTenifoldOE.R	5472	bf37412b1828a406c86f80df6460f2b5ed5ccd86142cf9365446b63fcf285c8e	.r	网络边权 OE	疾病 counts→WT→靶点行放大→差异	核心自定义敏感性模拟
+30.scTenifoldOE/sigDiff.txt	6050	4462e64f74d1a979fe0219ac7a7fe25f398c2995a10f79f0038028c52fa96375	.txt	网络边权 OE	疾病 counts→WT→靶点行放大→差异	核心自定义敏感性模拟
+31.Enrich/GO.txt	54223	7d4abc677b98b5c14c8584ef0915799243abbbedb191954e4ed8f35630c99289	.txt	OE 富集	sigDiff→GO/KEGG	同29修正
+31.Enrich/KEGG.txt	2055	cde0c5c40c44b0f0fc71d68b6523df4e3f57d7e6a4c6a17a56f793106728913f	.txt	OE 富集	sigDiff→GO/KEGG	同29修正
+31.Enrich/OE31.Enrich.R	9521	918302589ab6144a46a35b8cd47fff411bc3f03af618c8c7c4878ccd2b026f21	.r	OE 富集	sigDiff→GO/KEGG	同29修正
+31.Enrich/sigDiff.txt	6050	4462e64f74d1a979fe0219ac7a7fe25f398c2995a10f79f0038028c52fa96375	.txt	OE 富集	sigDiff→GO/KEGG	同29修正
+32.python/Command.txt	130	8233476eb50b02fabef50021022401f2466068271f8f275d23240441e4d1511b	.txt	Python 安装	安装程序/命令	不运行旧安装器
+32.python/python-3.13.12-amd64.exe	29096776	96159fcb523ae404b707186a75b4104ee23851e476a5e838e14584cf1e03f981	.exe	Python 安装	安装程序/命令	不运行旧安装器
+33.vscore/AI33.vscore.py	10066	525704cfa21dc59e6b4bc1521eb8f8d2941fcb8a92c6f106e050fd4c6d225dc6	.py	v-score	bulk Treat-Control→1×gene h5ad	药物筛选输入，非单细胞原始计数
+33.vscore/input.h5ad	1259432	0649963653bd3f9126410b81baaac19eae5de1a849e4ba35859579854254c8ba	.h5ad	v-score	bulk Treat-Control→1×gene h5ad	药物筛选输入，非单细胞原始计数
+33.vscore/merge.normalize.txt	65475686	ada8ed70d91b4e2744ce6cb7ac76a6e94d5cc045dd9810bdca8a54bd5fd675a5	.txt	v-score	bulk Treat-Control→1×gene h5ad	药物筛选输入，非单细胞原始计数
+33.vscore/vscore.txt	489491	f9b51a48d264819e30c59b9405f56da6968de1604b5626e49f32267aac839001	.txt	v-score	bulk Treat-Control→1×gene h5ad	药物筛选输入，非单细胞原始计数
+34.DrugReflector/.gitignore	539	4879fa2d3b4da9f2aaa3ec309d549d70ec0ae0ddbddd144e5cae67901fc03927		DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/__init__.py	738	ab0242fc8f37ecd74de6a3dbb3ee1d11a0a73e4a29191f888365cf2347845e58	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/__pycache__/utils.cpython-310.pyc	11197	abb73eb35cfdb59b3c33392b205e23e0048e0f65cd65086f5e15a72a81f4b09d	.pyc	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/__pycache__/utils.cpython-313.pyc	16200	dfe870ac056946e9103d5b951c13b5e96c7cb2a8ec4fe8fb83e30fc28ddcc122	.pyc	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/build/lib/drugreflector/__init__.py	738	ab0242fc8f37ecd74de6a3dbb3ee1d11a0a73e4a29191f888365cf2347845e58	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/build/lib/drugreflector/cli.py	3459	8e7dd667deb093a462305e90cb409e1768c649581ae90389dbfaddff86d199f5	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/build/lib/drugreflector/example.py	1822	832911e8da9ea0648b919e46381e9204f01e2cef7d5787fbd9d2455a49ebfd26	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/build/lib/drugreflector/LICENSE.txt	1643	9d564f3b48d15477722f044211151adb41ef3ce7961ca34a8c3c8a3f27eb88e2	.txt	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/build/lib/drugreflector/README.md	16759	b9c578bc05fdda96a45ca93c31a39ab2d10fff639e4118c865203ff476cef5a0	.md	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/build/lib/drugreflector/signature_refinement/__init__.py	294	1799f89fccd106e78e3a3398f52938b6e5bebc9f1299d50f58abdd9d37b50240	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/build/lib/drugreflector/signature_refinement/signature_refinement.py	23371	c9a35eb0bee73d7790a27ecfde75f1b5f6c23db3589cd98f6645e885ca2128bb	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/build/lib/drugreflector/utils.py	15235	64f5aa144330ae4f6d6e39137457ca79ff81c47b5506c1fe5629f417e593264f	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/checkpoints/.gitkeep	101	c00d40e9ff425eb8f726224d0bf90c8b83998a25a16253e5f8540c06f5ba5bb7		DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/checkpoints/model_fold_0.pt	91355041	f69fd9500f503f983b2cdb291fe3f96047f967abef90379cdc361d1477c80894	.pt	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/checkpoints/model_fold_1.pt	91355041	7ae907fd95c548d6e2570aa88c53854c76302070b63e5b57c84be7ccae26f10a	.pt	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/checkpoints/model_fold_2.pt	91355041	4ac8f179d3bc7c5edacbb8c1baaf0f6df6462bd3daece3b7210ba263720b68bb	.pt	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/cli.py	3459	8e7dd667deb093a462305e90cb409e1768c649581ae90389dbfaddff86d199f5	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/Command.txt	207	ebb278261e2bd92197e2addfbee85c7bfd93d01f11690116ee14e66f4a9448fa	.txt	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/__init__.py	226	cc5b2319f49d0a4d43133b3acc622c602576c7f5c2c4dc997e1ddd92ea9a2e90	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/__pycache__/__init__.cpython-310.pyc	417	518c3eb2b6a3dea2a675baea79614fa70b36dcf18d6f65b7827bbe2d2ac02b2c	.pyc	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/__pycache__/__init__.cpython-313.pyc	433	b6de961530da1faf298bf830ac5b9fcc147262b28174e3fc1c843bb161521d6b	.pyc	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/__pycache__/drug_reflector.cpython-310.pyc	9838	b89a9ab65ec00e7e9721f7702e3a4b9f2ddcb0484d7d39b0b5beae440c3919d9	.pyc	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/__pycache__/drug_reflector.cpython-313.pyc	13814	121563c4e57ee05ae88b43215cd90bede149c85a092bc7b0a8d7e9323f9910b2	.pyc	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/__pycache__/ensemble_model.cpython-310.pyc	7554	e8598cc20c52654cd0762f0538dbd58bc9994cfca1955dd989bec5b250d47485	.pyc	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/__pycache__/ensemble_model.cpython-313.pyc	11358	680e6bb6764dbcfc566a2dc900576a41b6b7a743a65b2966007f5ba2c2bb2542	.pyc	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/__pycache__/models.cpython-310.pyc	4372	34d823df6a93f4dcef7a5b4dbfcc80e0b8579c1d79d108b28a6fc62598a15116	.pyc	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/__pycache__/models.cpython-313.pyc	6000	fe69514802457797dcdbcd0d8c14fca3021611eab49a2d800d8d54b6b40724ab	.pyc	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/__pycache__/predict.cpython-313.pyc	6862	7ce308c6732f8ec6cbb44086fc8ce588b7c88c70ae5edf1c228afe4cd977e399	.pyc	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/__pycache__/utils.cpython-310.pyc	1692	7dea96586ffea5edede35bb718cde9ee3a5eeb8a9f79fc3076214d994b135a85	.pyc	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/__pycache__/utils.cpython-313.pyc	2169	e52471eeaa04d814c755741cabd709c0e01ab2986d238aafb3328cf9be4e2337	.pyc	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/drug_reflector.py	13273	28b973484563df59b59fe0cbe6dfc44794eb64d45d78d6194c94dd2a557e587d	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/ensemble_model.py	10130	43ca10fea7ea86ec66d91904f8fbd5f1066e7c0514db87c5e1f329ba3e022026	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/models.py	4424	836da286672b67f2ea5cef567e6f6abb59d004feb0b2448bd457a31df94141fd	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/predict.py	4662	8829316fc78aa4ba86730e58f338b720b43e7d3257d1d2534f665f4811ee58e7	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector/utils.py	1251	fb67121d411011884eaaa4ef226c54b0a0dab8525ccd40997a53dcd7f1575cc1	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector.egg-info/dependency_links.txt	1	01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b	.txt	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector.egg-info/entry_points.txt	57	de2d207816a53405e294135acfe42504b737e4004e6994a5b1d0beea214ee590	.txt	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector.egg-info/PKG-INFO	19241	763f3176aa7e74efff88a125bc9ef5ae1b91f54dde1f4940b92f7e27d9b895e0		DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector.egg-info/requires.txt	175	04220c741b847df96dbfefb05eb471d0a26508f8243582a43b06e042e166b1cc	.txt	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector.egg-info/SOURCES.txt	450	2c55c39242a88d98003a33cd1c2d4738cf36dbf879a084ade8e3ea1e5f9b2999	.txt	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/drugreflector.egg-info/top_level.txt	14	070f68961592d612f7dc294ff2988565d880bdda99b281483bcae8f4c6606c63	.txt	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/example.py	1822	832911e8da9ea0648b919e46381e9204f01e2cef7d5787fbd9d2455a49ebfd26	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/input.h5ad	1259432	0649963653bd3f9126410b81baaac19eae5de1a849e4ba35859579854254c8ba	.h5ad	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/LICENSE.txt	1643	9d564f3b48d15477722f044211151adb41ef3ce7961ca34a8c3c8a3f27eb88e2	.txt	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/pyproject.toml	2925	3474d9af99c521db24a09a7efe04bdc3b7a90aba8b8a195d451f2ab012653e46	.toml	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/README.md	16759	b9c578bc05fdda96a45ca93c31a39ab2d10fff639e4118c865203ff476cef5a0	.md	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/results.csv	20882	dbdea1c38a783d6eed6cb6c44b4007a002c1012dd5a66114b7e7b7b593cc864a	.csv	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/signature_refinement/__init__.py	294	1799f89fccd106e78e3a3398f52938b6e5bebc9f1299d50f58abdd9d37b50240	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/signature_refinement/signature_refinement.py	23371	c9a35eb0bee73d7790a27ecfde75f1b5f6c23db3589cd98f6645e885ca2128bb	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+34.DrugReflector/utils.py	15235	64f5aa144330ae4f6d6e39137457ca79ff81c47b5506c1fe5629f417e593264f	.py	DrugReflector	v-score+3个权重→化合物排名	独立扩展，不预测 FABP1 扰动表达
+35.vol/AI35.vol.R	2791	6f03aa2ffecf2a4ff91fb8caa932175f55afca60a7634aa6c175ac7cc1880fb1	.r	药物排名绘图	rank/logit/prob→图	不是差异表达火山图
+35.vol/results.csv	20882	dbdea1c38a783d6eed6cb6c44b4007a002c1012dd5a66114b7e7b7b593cc864a	.csv	药物排名绘图	rank/logit/prob→图	不是差异表达火山图
+36.dockData/GSN.pdb	408969	d46b84b8c4d266c8e6c77d25b03bf4d257b5c25e7305f17daf5dc00d99c01159	.pdb	对接结构准备	蛋白结构→37	独立扩展
+36.dockData/interGenes.List.txt	20	e1b84c27fbd4c1e53aec2bf8d3593c1e20786dbb9e86a87481b8f7f4e7983ba2	.txt	对接结构准备	蛋白结构→37	独立扩展
+37.dock/GSN.pdb	408969	d46b84b8c4d266c8e6c77d25b03bf4d257b5c25e7305f17daf5dc00d99c01159	.pdb	对接展示	PDB+截图	独立扩展
+37.dock/screenshot1.png	6330942	f54268d87e97b1c874d8c4512477523cffee05dcdf3cf3e9edd23d21a9709b10	.png	对接展示	PDB+截图	独立扩展
+37.dock/screenshot2.png	9134702	f63df0d7793a48dd29b3f6b7738bbb14e3f634ba655ac6d63b27a035e2ab9847	.png	对接展示	PDB+截图	独立扩展

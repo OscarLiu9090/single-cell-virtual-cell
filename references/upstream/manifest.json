@@ -1,0 +1,184 @@
+[
+  {
+    "repo": "scTenifoldKnk",
+    "commit": "e003c72d3a153ec07512271c1ae0fbeeadc319ca",
+    "path": "DESCRIPTION",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldKnk/e003c72d3a153ec07512271c1ae0fbeeadc319ca/DESCRIPTION",
+    "sha256": "5410f61754e994970e4a5005c740217aa6600adda4ee953ec1ca2014bcd3dd03"
+  },
+  {
+    "repo": "scTenifoldKnk",
+    "commit": "e003c72d3a153ec07512271c1ae0fbeeadc319ca",
+    "path": "NAMESPACE",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldKnk/e003c72d3a153ec07512271c1ae0fbeeadc319ca/NAMESPACE",
+    "sha256": "f0a79eceae080e3038eee9f43d43ac34d51424cd2a973ec380fc1b25e702360a"
+  },
+  {
+    "repo": "scTenifoldKnk",
+    "commit": "e003c72d3a153ec07512271c1ae0fbeeadc319ca",
+    "path": "R/dRegulation.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldKnk/e003c72d3a153ec07512271c1ae0fbeeadc319ca/R/dRegulation.R",
+    "sha256": "76a4ab7b256bdce70fcaf3502bb41eb8fbfaef2d99c639513507be390baa6ebc"
+  },
+  {
+    "repo": "scTenifoldKnk",
+    "commit": "e003c72d3a153ec07512271c1ae0fbeeadc319ca",
+    "path": "R/heatKernel.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldKnk/e003c72d3a153ec07512271c1ae0fbeeadc319ca/R/heatKernel.R",
+    "sha256": "c09cf50cd6d7da82d16e85ed911a32c139c2c76974098b0e9ce6aa775f464827"
+  },
+  {
+    "repo": "scTenifoldKnk",
+    "commit": "e003c72d3a153ec07512271c1ae0fbeeadc319ca",
+    "path": "R/perturbationMap.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldKnk/e003c72d3a153ec07512271c1ae0fbeeadc319ca/R/perturbationMap.R",
+    "sha256": "736997e164766a0388739446000b27b16d1bf66047e906a6797ff54e00681eb1"
+  },
+  {
+    "repo": "scTenifoldKnk",
+    "commit": "e003c72d3a153ec07512271c1ae0fbeeadc319ca",
+    "path": "R/plotKO.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldKnk/e003c72d3a153ec07512271c1ae0fbeeadc319ca/R/plotKO.R",
+    "sha256": "e2b5f65b68d60ca30ba06d88e91895aa32e83f6d71fb2959adae5c02ca604f02"
+  },
+  {
+    "repo": "scTenifoldKnk",
+    "commit": "e003c72d3a153ec07512271c1ae0fbeeadc319ca",
+    "path": "R/qFilter.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldKnk/e003c72d3a153ec07512271c1ae0fbeeadc319ca/R/qFilter.R",
+    "sha256": "4f789dc76a75650b2fc56165f9ddb03e923ef8af9fd9958e1b86be544abdadc7"
+  },
+  {
+    "repo": "scTenifoldKnk",
+    "commit": "e003c72d3a153ec07512271c1ae0fbeeadc319ca",
+    "path": "R/restoreSeed.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldKnk/e003c72d3a153ec07512271c1ae0fbeeadc319ca/R/restoreSeed.R",
+    "sha256": "9e797c68298b60f0fa5e8e902acefcc20cca45290db00808f310dab7b6d6a253"
+  },
+  {
+    "repo": "scTenifoldKnk",
+    "commit": "e003c72d3a153ec07512271c1ae0fbeeadc319ca",
+    "path": "R/scQC.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldKnk/e003c72d3a153ec07512271c1ae0fbeeadc319ca/R/scQC.R",
+    "sha256": "639846c0a77e002a759bdee36bcd59462fc7ffed77ea54cfa5ddccd478a868c0"
+  },
+  {
+    "repo": "scTenifoldKnk",
+    "commit": "e003c72d3a153ec07512271c1ae0fbeeadc319ca",
+    "path": "R/scTenifoldKnk.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldKnk/e003c72d3a153ec07512271c1ae0fbeeadc319ca/R/scTenifoldKnk.R",
+    "sha256": "f941863a01ae1724fb01352bf1ae828508af65e3dbc35c6e1e22d2e88d1a116c"
+  },
+  {
+    "repo": "scTenifoldKnk",
+    "commit": "e003c72d3a153ec07512271c1ae0fbeeadc319ca",
+    "path": "R/strictDirection.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldKnk/e003c72d3a153ec07512271c1ae0fbeeadc319ca/R/strictDirection.R",
+    "sha256": "afa8075c57361b3ebc59bcd5d66ddbfeaee1cd3df7dee258ee0e14833c5c6bff"
+  },
+  {
+    "repo": "scTenifoldNet",
+    "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+    "path": "DESCRIPTION",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldNet/3103a53216c347a3d4c9660d63b03c2ca99b47a1/DESCRIPTION",
+    "sha256": "668be623972f298ce4b13ee476c831a13e2f50f577539e71fa945003cdf824c6"
+  },
+  {
+    "repo": "scTenifoldNet",
+    "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+    "path": "NAMESPACE",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldNet/3103a53216c347a3d4c9660d63b03c2ca99b47a1/NAMESPACE",
+    "sha256": "5190bf1d8f72bcd11b853e909b39e498eba4fcc93e632b5538707d4738641721"
+  },
+  {
+    "repo": "scTenifoldNet",
+    "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+    "path": "R/asTensor.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldNet/3103a53216c347a3d4c9660d63b03c2ca99b47a1/R/asTensor.R",
+    "sha256": "13015617ba80b4bf911acab4e73d6cad6e8b55acdc4c5b5734bd76baebbf5496"
+  },
+  {
+    "repo": "scTenifoldNet",
+    "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+    "path": "R/checkMemory.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldNet/3103a53216c347a3d4c9660d63b03c2ca99b47a1/R/checkMemory.R",
+    "sha256": "da9cec03d5ce74d985824e4db61ba5d63c8ba388ee3b7d1125490000d6cfa195"
+  },
+  {
+    "repo": "scTenifoldNet",
+    "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+    "path": "R/cpDecomposition.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldNet/3103a53216c347a3d4c9660d63b03c2ca99b47a1/R/cpDecomposition.R",
+    "sha256": "fb0c44642217145e8e2f09c2ddc341730201675c9aab2b744a19d90a02dca397"
+  },
+  {
+    "repo": "scTenifoldNet",
+    "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+    "path": "R/cpmNormalization.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldNet/3103a53216c347a3d4c9660d63b03c2ca99b47a1/R/cpmNormalization.R",
+    "sha256": "43804fc285d047d7a683f0f9b14749bbe53e30d3519d8df7c71c787f96c7f1b6"
+  },
+  {
+    "repo": "scTenifoldNet",
+    "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+    "path": "R/dModularity.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldNet/3103a53216c347a3d4c9660d63b03c2ca99b47a1/R/dModularity.R",
+    "sha256": "739c01a3a8d4c49c38684ec17c4e72bdf514eb27c9f0c8d216ba6d542ce6f7dc"
+  },
+  {
+    "repo": "scTenifoldNet",
+    "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+    "path": "R/dRegulation.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldNet/3103a53216c347a3d4c9660d63b03c2ca99b47a1/R/dRegulation.R",
+    "sha256": "c0d9a25e9714ad6abbccfea31337e1454775305e19a5a09936d3c459546afb7b"
+  },
+  {
+    "repo": "scTenifoldNet",
+    "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+    "path": "R/makeNetworks.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldNet/3103a53216c347a3d4c9660d63b03c2ca99b47a1/R/makeNetworks.R",
+    "sha256": "9db039a9e0a172960e8176ac1329f7ab40c0aeff677dfb8269362ff546ba6964"
+  },
+  {
+    "repo": "scTenifoldNet",
+    "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+    "path": "R/manifoldAlignment.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldNet/3103a53216c347a3d4c9660d63b03c2ca99b47a1/R/manifoldAlignment.R",
+    "sha256": "673db6f14f2ec5e2d88d1afd4a24acb006bc5b3914e2ddbec1de6c2775de9fe2"
+  },
+  {
+    "repo": "scTenifoldNet",
+    "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+    "path": "R/pcNet.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldNet/3103a53216c347a3d4c9660d63b03c2ca99b47a1/R/pcNet.R",
+    "sha256": "15ebc442f9c1e28bb45ba72e62ef2d1b5c8636cdc3963cee3c275fc1e8789ff5"
+  },
+  {
+    "repo": "scTenifoldNet",
+    "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+    "path": "R/restoreSeed.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldNet/3103a53216c347a3d4c9660d63b03c2ca99b47a1/R/restoreSeed.R",
+    "sha256": "9e797c68298b60f0fa5e8e902acefcc20cca45290db00808f310dab7b6d6a253"
+  },
+  {
+    "repo": "scTenifoldNet",
+    "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+    "path": "R/scQC.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldNet/3103a53216c347a3d4c9660d63b03c2ca99b47a1/R/scQC.R",
+    "sha256": "8f2de3716158eb2e539deb95608edfeeed91299b9806a751050915f05653526d"
+  },
+  {
+    "repo": "scTenifoldNet",
+    "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+    "path": "R/scTenifoldNet.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldNet/3103a53216c347a3d4c9660d63b03c2ca99b47a1/R/scTenifoldNet.R",
+    "sha256": "df500c1e48a81711bd00fe46a60dc6c3b50a9fd66f3f7de7af2926c61f83ebc6"
+  },
+  {
+    "repo": "scTenifoldNet",
+    "commit": "3103a53216c347a3d4c9660d63b03c2ca99b47a1",
+    "path": "R/tensorDecomposition.R",
+    "url": "https://raw.githubusercontent.com/cailab-tamu/scTenifoldNet/3103a53216c347a3d4c9660d63b03c2ca99b47a1/R/tensorDecomposition.R",
+    "sha256": "9a406bee482477cfb7a42494e76a573da229536b06b1556cedd18818b047839f"
+  }
+]

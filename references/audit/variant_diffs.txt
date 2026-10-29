@@ -1,0 +1,81 @@
+--- 05.normalize\geo05.normalize.R
++++ 05.normalize\GSE138260\geo05.normalize.R
+@@ -9,8 +9,8 @@
+ inputFile="geneMatrix.txt"     #表达数据文件
+ conFile="s1.txt"               #对照组的样品信息文件
+ treatFile="s2.txt"             #实验组的样品信息文件
+-geoID="GSE5281"                #GEO数据库研究的id
+-setwd("C:\\Users\\lexb\\Desktop\\GEO\\05.normalize\\GSE5281")      #设置工作目录
++geoID="GSE138260"              #GEO数据库研究的id
++setwd("C:\\Users\\lexb\\Desktop\\GEO\\05.normalize\\GSE138260")      #设置工作目录
+ 
+ #读取输入文件，并对输入文件整理
+ rt=read.table(inputFile, header=T, sep="\t", check.names=F)
+--- 05.normalize\geo05.normalize.R
++++ 05.normalize\GSE29378\geo05.normalize.R
+@@ -9,8 +9,8 @@
+ inputFile="geneMatrix.txt"     #表达数据文件
+ conFile="s1.txt"               #对照组的样品信息文件
+ treatFile="s2.txt"             #实验组的样品信息文件
+-geoID="GSE5281"                #GEO数据库研究的id
+-setwd("C:\\Users\\lexb\\Desktop\\GEO\\05.normalize\\GSE5281")      #设置工作目录
++geoID="GSE29378"               #GEO数据库研究的id
++setwd("C:\\Users\\lexb\\Desktop\\GEO\\05.normalize\\GSE29378")      #设置工作目录
+ 
+ #读取输入文件，并对输入文件整理
+ rt=read.table(inputFile, header=T, sep="\t", check.names=F)
+--- 05.normalize\geo05.normalize.R
++++ 05.normalize\GSE36980\geo05.normalize.R
+@@ -9,8 +9,8 @@
+ inputFile="geneMatrix.txt"     #表达数据文件
+ conFile="s1.txt"               #对照组的样品信息文件
+ treatFile="s2.txt"             #实验组的样品信息文件
+-geoID="GSE5281"                #GEO数据库研究的id
+-setwd("C:\\Users\\lexb\\Desktop\\GEO\\05.normalize\\GSE5281")      #设置工作目录
++geoID="GSE36980"               #GEO数据库研究的id
++setwd("C:\\Users\\lexb\\Desktop\\GEO\\05.normalize\\GSE36980")      #设置工作目录
+ 
+ #读取输入文件，并对输入文件整理
+ rt=read.table(inputFile, header=T, sep="\t", check.names=F)
+--- 05.normalize\geo05.normalize.R
++++ 05.normalize\GSE37263\geo05.normalize.R
+@@ -9,8 +9,8 @@
+ inputFile="geneMatrix.txt"     #表达数据文件
+ conFile="s1.txt"               #对照组的样品信息文件
+ treatFile="s2.txt"             #实验组的样品信息文件
+-geoID="GSE5281"                #GEO数据库研究的id
+-setwd("C:\\Users\\lexb\\Desktop\\GEO\\05.normalize\\GSE5281")      #设置工作目录
++geoID="GSE37263"               #GEO数据库研究的id
++setwd("C:\\Users\\lexb\\Desktop\\GEO\\05.normalize\\GSE37263")      #设置工作目录
+ 
+ #读取输入文件，并对输入文件整理
+ rt=read.table(inputFile, header=T, sep="\t", check.names=F)
+--- 29.Enrich\OE29.Enrich.R
++++ 31.Enrich\OE31.Enrich.R
+@@ -28,7 +28,7 @@
+ pvalueFilter=0.05      #p值过滤条件
+ p.adjustFilter=1       #矫正后的p值过滤条件
+ 
+-setwd("C:\\Users\\Administrator\\Desktop\\OE\\29.Enrich")       #设置工作目录
++setwd("C:\\Users\\Administrator\\Desktop\\OE\\31.Enrich")       #设置工作目录
+ rt=read.table("sigDiff.txt", header=T, sep="\t", check.names=F)        #读取差异分析的结果文件
+ 
+ #提取差异基因的名称, 将基因名称转换为基因id
+@@ -62,7 +62,7 @@
+ GK=rbind(GO, KEGG)
+ GK$ONTOLOGY=factor(GK$ONTOLOGY, levels=c("BP","CC", "MF","KEGG"))
+ 
+-# 对每个分组选择富集最显著的前5个结果进行可视化
++# 为每个分组选择前5个富集的结果
+ data_selected <- GK %>% arrange(ONTOLOGY, pvalue) %>% group_by(ONTOLOGY) %>% slice_head(n=5) %>% ungroup()
+ data_selected$log10p <- -log10(data_selected$pvalue)
+ data_selected <- data_selected %>% arrange(ONTOLOGY, desc(log10p)) %>% 
+@@ -87,7 +87,7 @@
+   geom_text(data = group_positions,
+             aes(x = -max(data_selected$log10p)*0.11, y = (y_start + y_end)/2, label = ONTOLOGY, fill = ONTOLOGY),
+             inherit.aes = FALSE, size = 4, fontface = "bold", color = "black") +
+-  # 在柱状图中展示功能和通路的名称
++  # 在图形中展示功能和通路的名称
+   geom_text(aes(label = Description, x = 0.05), hjust = 0, size = 3.5, 
+             color = "black", fontface = "plain") + 
+   scale_fill_manual(values = ontology_colors, name = "Ontology") + 

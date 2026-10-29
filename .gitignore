@@ -1,0 +1,14 @@
+references/environment.local.json
+references/library_paths.local.txt
+configs/*.local.yaml
+*.local.json
+__pycache__/
+*.pyc
+.runtime/
+.test-output/
+data/
+results/
+validation/
+.Rhistory
+.RData
+.Rproj.user/
