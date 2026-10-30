@@ -2,7 +2,7 @@
 
 可调用的 Codex Skill：单细胞虚拟敲除、共享 WT 的网络边权过表达模拟、指定下游基因的扰动排名及供体表达关联。
 
-**网络 FC/Z 不代表 mRNA 表达倍数或方向。** 本版不会从未经验证的共表达模型输出“PPARA 必然升高/降低”。
+**网络 FC/Z 不代表 mRNA 表达倍数或方向。**
 
 ## 内容
 
@@ -15,8 +15,10 @@
 
 ## 使用
 
-将仓库目录放入 `~/.codex/skills/single-cell-virtual-perturbation`，按环境文档配置 R/Python 与包库。后续可直接说：
+将仓库目录放入 `~/.codex/skills/single-cell-virtual-perturbation`，按环境文档配置 R/Python 与包库。
 
+后续可直接说：
+例如：
 > 使用 $single-cell-virtual-perturbation 分析我的肝纤维化肝细胞数据，评估 FABP1 KO 和边权 OE 对 PPARA 的网络影响。
 
 或者复制配置到分析目录，填写自己的数据位置后运行：
