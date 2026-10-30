@@ -1,6 +1,6 @@
 # Single-cell virtual perturbation
 
-可调用的 Codex Skill：单细胞虚拟敲除、共享 WT 的网络边权过表达模拟、指定下游基因的扰动排名及供体表达关联。附人肝纤维化 FABP1–PPARA 配置。
+可调用的 Codex Skill：单细胞虚拟敲除、共享 WT 的网络边权过表达模拟、指定下游基因的扰动排名及供体表达关联。
 
 **网络 FC/Z 不代表 mRNA 表达倍数或方向。** 本版不会从未经验证的共表达模型输出“PPARA 必然升高/降低”。
 
@@ -28,7 +28,7 @@ Rscript scripts/run_perturbation.R --config /path/to/config.yaml
 
 支持 Seurat RDS/RData、10X、原始 counts 层的 h5ad，以及 R 矩阵。正式网络建模需要原始计数、供体、状态及已审核细胞类型。
 
-核心版本：scTenifoldKnk 2.0.0、scTenifoldNet 1.4.3，固定 Git 提交、文件哈希与安装后函数指纹。课程数据完成9次缩小网络运行；人肝纤维化示例尚待实际数据。仓库不包含课程原始数据、模型权重、私人分析结果或本机环境路径文件。
+核心版本：scTenifoldKnk 2.0.0、scTenifoldNet 1.4.3，固定 Git 提交、文件哈希与安装后函数指纹。
 
 ## 开发验证
 
@@ -37,4 +37,4 @@ Rscript scripts/run_tests.R
 python tests/test_h5ad.py
 ```
 
-包内固定上游源码保留原作者和 GPL 授权；本项目按 GPL-3.0-or-later 提供。课程来源为用户提供的生信自学网 OE 资料，仓库提供审查与独立整理，不分发原课程数据包。
+包内固定上游源码保留原作者和 GPL 授权；本项目按 GPL-3.0-or-later 提供。
